@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Idelek-React/build/static/css/main.b7f7cbd6.css",
+    "main.js": "/Idelek-React/build/static/js/main.05f0d084.js",
+    "static/media/plc.png": "/Idelek-React/build/static/media/plc.9d6adaaf9e321406d9f6.png",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/Idelek-React/build/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
+    "static/media/tablero-chico.png": "/Idelek-React/build/static/media/tablero-chico.2e2dedd825f8af1c4e24.png",
+    "static/media/tableros-electricos-instalacion.png": "/Idelek-React/build/static/media/tableros-electricos-instalacion.fb6be3dd228ed771a129.png",
+    "static/media/bootstrap-icons.woff?": "/Idelek-React/build/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/plc-1200.png": "/Idelek-React/build/static/media/plc-1200.9cd745a015fa6e1ebb5e.png",
+    "static/media/logoIdk.png": "/Idelek-React/build/static/media/logoIdk.d37e6b905cd9c68f00a2.png",
+    "static/media/bootstrap-icons.woff2?": "/Idelek-React/build/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "index.html": "/Idelek-React/build/index.html",
+    "main.b7f7cbd6.css.map": "/Idelek-React/build/static/css/main.b7f7cbd6.css.map",
+    "main.05f0d084.js.map": "/Idelek-React/build/static/js/main.05f0d084.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7f7cbd6.css",
+    "static/js/main.05f0d084.js"
+  ]
+}

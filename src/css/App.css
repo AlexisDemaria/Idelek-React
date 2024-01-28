@@ -1,0 +1,250 @@
+/* NAVBAR */
+
+
+/* color: #2c3e50; */
+.navbar-nav{
+    color: #616161;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu{
+    width: max-content;
+    background-color: #f8f9fa;
+    border-radius: 0px;
+    padding: 0px;
+}
+
+.link{
+    color: #2c3e50;
+}
+
+.nav-link:hover{
+    background-color: #6788a3;
+}
+
+.nav-link:active, .nav-link:focus{
+    background-color: #6788a3;
+}
+
+
+/* HOME */
+.parallax{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.854), rgba(0, 0, 0, 0.603)), url('../assets/images/plc.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    opacity: 0.6;
+}
+
+.titulosHome{
+    margin: 3% 0 1%;
+    font-weight: bold;
+    color: #616161;
+    text-align: center;
+}
+
+.linea{
+    height: 10px;
+    width: 5%;
+    background-color: #2c3e50;
+    margin-left: 47.5%;
+}
+
+.tituloQs{
+    margin-top: 10px;
+    margin-left: 10%;
+    font-weight: bold;
+    color: #616161;
+}
+
+.textoTitulo{
+    background-color: #fff;
+    position:absolute;
+    top: 5%;
+    bottom: 5%;
+    max-width: 50%;
+}
+
+.textoHome{
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 2%;
+}
+
+/* CARD */
+
+.card {
+    min-width: 190px;
+    min-height: 254px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    margin: 10px 15px 15px 10px;
+}
+
+.card-details {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+}
+
+.card-button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border: none;
+    background-color: #6788a3;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+    text-align: center;
+    text-decoration: none;
+}
+
+.text-body {
+    color: rgb(134, 134, 134);
+}
+
+.text-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.card:hover {
+    border-color: #6788a3;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+}
+
+/* SWIPER */
+
+.swiper {
+    max-width: 100%;
+    min-height: 150px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: flex;
+    max-width: 320px;
+    max-height: 100px;
+    object-fit: cover;
+}
+
+@media only screen and (min-width:1281px) and (max-width:1600px) {
+    .textoTitulo{
+        max-width: 60%;
+    }
+}
+
+@media only screen and (min-width:1085px) and (max-width:1280px) {
+    .textoTitulo{
+        max-width: 70%;
+    }
+}
+
+@media only screen and (min-width:951px) and (max-width:1084px) {
+    .textoTitulo{
+        max-width: 80%;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:950px) {
+    .textoTitulo{
+        max-width: 90%;
+    }
+    .parallax{
+        height: 700px;
+    }
+}
+
+@media only screen and (min-width:581px) and (max-width:768px) {
+    .textoTitulo{
+        max-width: 90%;
+    }
+
+    .parallax{
+        height: 800px;
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width:580px) {
+    .textoTitulo{
+        max-width: 90%;
+    }
+
+    .parallax{
+        height: 900px;
+    }
+}
+
+@media only screen and (min-width:432px) and (max-width:500px) {
+    .textoTitulo{
+        max-width: 90%;
+    }
+
+    .parallax{
+        height: 1000px;
+    }
+}
+
+@media only screen and (min-width:404px) and (max-width:433px) {
+    .textoTitulo{
+        max-width: 90%;
+    }
+
+    .parallax{
+        height: 1100px;
+    }
+}
+
+@media only screen and (min-width:381px) and (max-width:405px) {
+    .textoTitulo{
+        max-width: 90%;
+    }
+
+    .parallax{
+        height: 1200px;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:380px) {
+    .textoTitulo{
+        max-width: 90%;
+    }
+
+    .parallax{
+        height: 1450px;
+    }
+}

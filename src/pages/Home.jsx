@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -126,10 +126,10 @@ const Home = () => {
                                 modules={[Autoplay, Pagination]}
                                 className="mySwiper"
                             >
-                                {LogosCLientes.map((result, index)=>(
-                                <SwiperSlide key={index}>
-                                    <img src={result.img} alt='' />
-                                </SwiperSlide>
+                                {LogosCLientes.map((result, index) => (
+                                    <SwiperSlide key={index}>
+                                        <img src={result.img} alt='' />
+                                    </SwiperSlide>
                                 ))}
                             </Swiper>
                         </div>

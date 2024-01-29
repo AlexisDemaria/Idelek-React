@@ -9,6 +9,7 @@ import Mantenimiento from './pages/Mantenimiento'
 import Clientes from './pages/Clientes';
 import Contacto from './pages/Contacto'
 import Footer from './components/Footer';
+import ScrollToTopButton from './utils/ScrollToTopButton'
 import '../src/css/App.css'
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
                     <Route path='/contacto' element={<Contacto />} />
                 </Routes>
                 <Footer />
+                <ScrollToTopButton />
             </BrowserRouter>
         </>
     );

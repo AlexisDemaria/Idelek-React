@@ -3,20 +3,18 @@ import React, { useEffect, useState } from 'react';
 const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-  // Muestra el botón cuando el usuario se desplaza hacia abajo 100vh desde la parte superior del documento.
   const toggleVisibility = () => {
-    if (window.pageYOffset > window.innerHeight) {
+    if (window.pageYOffset > window.innerHeight / 3) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
     }
   };
 
-  // Desplaza al usuario a la parte superior del documento cuando se hace clic en el botón.
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth"
+      behavior: "smooth",
     });
   };
 
@@ -26,11 +24,9 @@ const ScrollToTopButton = () => {
   }, []);
 
   return (
-    <div className="scroll-to-top">
+    <div >
       {isVisible && (
-        <button onClick={scrollToTop}>
-          Ir arriba
-        </button>
+        <button className="upper" onClick={scrollToTop}><i style={{color:'white', fontSize:'25px'}} className="bi bi-chevron-up"></i></button>
       )}
     </div>
   );

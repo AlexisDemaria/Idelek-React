@@ -1,7 +1,23 @@
+/* BOTON IR ARRIBA */
+
+.upper{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 5px 12px;
+    background: #6788a3;
+    border: 3px solid white;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.upper:hover{
+    background: #2c3e50;
+    transition: 0.5s; 
+}
+
 /* NAVBAR */
 
-
-/* color: #2c3e50; */
 .navbar-nav{
     color: #616161;
     font-size: 22px;
@@ -17,6 +33,7 @@
     background-color: #f8f9fa;
     border-radius: 0px;
     padding: 0px;
+    transition: 0.5s;
 }
 
 .link{
@@ -25,9 +42,10 @@
 
 .nav-link:hover{
     background-color: #6788a3;
+    transition: 0.7s;
 }
 
-.nav-link:active, .nav-link:focus{
+.nav-link:hover, .nav-link:active, .nav-link:focus{
     background-color: #6788a3;
 }
 
@@ -103,6 +121,7 @@
 
 .card-button {
     transform: translate(-50%, 125%);
+    transition: 0.3s ease-out;
     width: 60%;
     border: none;
     background-color: #6788a3;
@@ -113,7 +132,6 @@
     left: 50%;
     bottom: 0;
     opacity: 0;
-    transition: 0.3s ease-out;
     text-align: center;
     text-decoration: none;
 }
@@ -140,6 +158,7 @@
 /* SWIPER */
 
 .swiper {
+    z-index: 1;
     max-width: 100%;
     min-height: 150px;
 }
@@ -178,6 +197,12 @@
     .textoTitulo{
         max-width: 80%;
     }
+
+    .swiper-slide img {
+        max-width: 240px;
+        max-height: 80px;
+    }
+
 }
 
 @media only screen and (min-width:767px) and (max-width:950px) {
@@ -186,6 +211,11 @@
     }
     .parallax{
         height: 700px;
+    }
+
+    .swiper-slide img {
+        max-width: 240px;
+        max-height: 80px;
     }
 }
 
@@ -196,6 +226,11 @@
 
     .parallax{
         height: 800px;
+    }
+
+    .swiper-slide img {
+        max-width: 240px;
+        max-height: 80px;
     }
 }
 
@@ -220,6 +255,10 @@
 }
 
 @media only screen and (min-width:404px) and (max-width:433px) {
+    .upper{
+        padding: 3px 8px;
+    }
+    
     .textoTitulo{
         max-width: 90%;
     }
@@ -230,6 +269,10 @@
 }
 
 @media only screen and (min-width:381px) and (max-width:405px) {
+    .upper{
+        padding: 3px 8px;
+    }
+    
     .textoTitulo{
         max-width: 90%;
     }
@@ -240,6 +283,10 @@
 }
 
 @media only screen and (min-width:320px) and (max-width:380px) {
+    .upper{
+        padding: 3px 8px;
+    }
+    
     .textoTitulo{
         max-width: 90%;
     }

@@ -2,13 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
 import LogosCLientes from '../json/LogosClientes.json'
 import LogoIdk from '../assets/images/logoIdk.png';
 import PLC from '../assets/images/plc-1200.png';
 import TableroGrande from '../assets/images/tableros-electricos-instalacion.png';
 import TableroChico from '../assets/images/tablero-chico.png';
+import "swiper/css";
+import "swiper/css/pagination";
 
 
 const Home = () => {

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Idelek-React/build/static/css/main.005a462d.css",
-    "main.js": "/Idelek-React/build/static/js/main.4d71bb5b.js",
+    "main.css": "/Idelek-React/build/static/css/main.5f965973.css",
+    "main.js": "/Idelek-React/build/static/js/main.d37ec77d.js",
     "static/media/plc.png": "/Idelek-React/build/static/media/plc.9d6adaaf9e321406d9f6.png",
     "static/media/Montserrat-VariableFont_wght.ttf": "/Idelek-React/build/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
     "static/media/tablero-chico.png": "/Idelek-React/build/static/media/tablero-chico.2e2dedd825f8af1c4e24.png",
@@ -11,11 +11,11 @@
     "static/media/logoIdk.png": "/Idelek-React/build/static/media/logoIdk.d37e6b905cd9c68f00a2.png",
     "static/media/bootstrap-icons.woff2?": "/Idelek-React/build/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "index.html": "/Idelek-React/build/index.html",
-    "main.005a462d.css.map": "/Idelek-React/build/static/css/main.005a462d.css.map",
-    "main.4d71bb5b.js.map": "/Idelek-React/build/static/js/main.4d71bb5b.js.map"
+    "main.5f965973.css.map": "/Idelek-React/build/static/css/main.5f965973.css.map",
+    "main.d37ec77d.js.map": "/Idelek-React/build/static/js/main.d37ec77d.js.map"
   },
   "entrypoints": [
-    "static/css/main.005a462d.css",
-    "static/js/main.4d71bb5b.js"
+    "static/css/main.5f965973.css",
+    "static/js/main.d37ec77d.js"
   ]
 }

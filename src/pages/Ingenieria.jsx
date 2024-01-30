@@ -2,9 +2,11 @@ import React from 'react';
 
 const Ingenieria = () => {
     return (
-        <div>
-            Ing
-        </div>
+        <>
+            <div>
+                Ing
+            </div>
+        </>
     );
 }
 

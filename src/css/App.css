@@ -1,5 +1,33 @@
 /* BOTON IR ARRIBA */
 
+@keyframes slideIn {
+    0% {
+        transform: translateY(100vh);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideOut {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(100vh);
+    }
+}
+
+.upper.slide-in {
+    animation: slideIn 0.5s forwards;
+}
+
+.upper.slide-out {
+    animation: slideOut 0.5s forwards;
+}
+
 .upper {
     position: fixed;
     bottom: 20px;
@@ -181,6 +209,29 @@
     max-width: 320px;
     max-height: 100px;
     object-fit: cover;
+}
+
+/* CLIENTES */
+
+.logosClientes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    max-width: 100%;
+    max-height: 150px;
+}
+
+.logosClientes img{
+    display: flex;
+    max-width: max-content;
+    max-height: 100px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.logosClientes img:hover{
+    transform: scale(0.8);
 }
 
 @media only screen and (min-width:1281px) and (max-width:1600px) {

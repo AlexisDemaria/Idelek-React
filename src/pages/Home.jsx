@@ -35,7 +35,6 @@ const Home = () => {
                         </div>
                     </article>
                 </section>
-
                 <section className='container-fluid p-0'>
                     <article className='position-relative'>
                         <div class="parallax">
@@ -55,9 +54,8 @@ const Home = () => {
                             </div>
                         </div>
                     </article>
-
                     <article className='container'>
-                        <h2 className='titulosHome'>SERVICIOS</h2>
+                        <h2 className='titulosHome text-uppercase'>Servicios</h2>
                         <hr className='linea'></hr>
                         <div className='row'>
                             <div className="card col">
@@ -69,30 +67,45 @@ const Home = () => {
                             </div>
                             <div className="card col">
                                 <div className="card-details">
-                                    <p className="text-title">Armado de tableros</p>
-                                    <p className="text-body">Construcción a solicitud del cliente de TGBT (Tablero General de Baja Tensión), de distribución, de control de potencia, etcétera.</p>
+                                    <p className="text-title">Tableros eléctricos</p>
+                                    <p className="text-body">Construcción de TGBT (Tablero General de Baja Tensión), corrector factor de potencia (Coseno de Phi "φ"), de distribución, de control de potencia, y más.</p>
                                 </div>
-                                <Link className='card-button' to='/tableros-electricos' >Ver más</Link>
+                                <Link className='card-button' to='/tableros' >Ver más</Link>
                             </div>
                             <div className="card col">
                                 <div className="card-details">
-                                    <p className="text-title">Obras e instalaciones</p>
+                                    <p className="text-title">Instalaciones</p>
                                     <p className="text-body">Relevamiento, análisis y ejecución sobre el sector donde se desea implementar soluciones eléctricas y electrónicas.</p>
                                 </div>
-                                <Link className='card-button' to='/obras-instalaciones' >Ver más</Link>
+                                <Link className='card-button' to='/instalaciones' >Ver más</Link>
                             </div>
                             <div className="card col">
                                 <div className="card-details">
-                                    <p className="text-title">Mantenimiento</p>
-                                    <p className="text-body">Control, intervención y modificación sobre maquinas y/o instalaciones ya existentes, para que funcionen a gusto del cliente o de manera adecuada.</p>
+                                    <p className="text-title">Mantenimiento industrial</p>
+                                    <p className="text-body">Control, intervención y modificación sobre maquinas y/o instalaciones ya existentes.</p>
                                 </div>
                                 <Link className='card-button' to='/mantenimiento' >Ver más</Link>
                             </div>
                         </div>
+                        <div className='row'>
+                            <div className="card col">
+                                <div className="card-details">
+                                    <p className="text-title">Termografía y mediciones</p>
+                                    <p className="text-body">Estudio termográfico sobre instalaciones, mediciones de redes, puesta tierra y disyuntores diferenciales.</p>
+                                </div>
+                                <Link className='card-button' to='/termografia' >Ver más</Link>
+                            </div>
+                            <div className="card col">
+                                <div className="card-details">
+                                    <p className="text-title">Alumbrado público</p>
+                                    <p className="text-body">Montaje de iluminaria y cambio de artefactos ya sea en obra nueva como en instalaciones existentes.</p>
+                                </div>
+                                <Link className='card-button' to='/alumbrado' >Ver más</Link>
+                            </div>
+                        </div>
                     </article>
-
                     <article className='container'>
-                        <h2 className='titulosHome'>CLIENTES</h2>
+                        <h2 className='titulosHome text-uppercase'>Clientes</h2>
                         <hr className='linea'></hr>
                         <div>
                             <Swiper

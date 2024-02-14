@@ -21,9 +21,11 @@ const NavBar = () => {
                                     <p style={{ margin: '0px' }} className="nav-link dropdown-toggle" role="button" data-bs-toggle="" aria-expanded="false">Servicios</p>
                                     <ul className="dropdown-menu nav-item">
                                         <li><Link className="nav-link" to='/ingenieria'>Ingeniería y proyectos</Link></li>
-                                        <li><Link className="nav-link" to='/tableros-electricos'>Diseño y construcción tableros eléctricos</Link></li>
-                                        <li><Link className="nav-link" to='/obras-instalaciones'>Obras e instalaciones</Link></li>
+                                        <li><Link className="nav-link" to='/tableros'>Armado de tableros eléctricos</Link></li>
+                                        <li><Link className="nav-link" to='/instalaciones'>Instalaciones</Link></li>
                                         <li><Link className="nav-link" to='/mantenimiento'>Mantenimiento</Link></li>
+                                        <li><Link className="nav-link" to='/termografia'>Termografía y mediciones</Link></li>
+                                        <li><Link className="nav-link" to='/alumbrado'>Alumbrado público</Link></li>
                                     </ul>
                                 </li>
                                 <li className="nav-item">

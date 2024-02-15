@@ -1,4 +1,4 @@
-/* BOTON IR ARRIBA */
+/* BOTóN IR ARRIBA */
 
 @keyframes slideIn {
     0% {
@@ -87,7 +87,7 @@
     opacity: 0.6;
 }
 
-.titulosHome {
+.tituloHome {
     margin: 3% 0 1%;
     font-weight: bold;
     color: #616161;
@@ -193,7 +193,7 @@
     background: #fff;
     width: 300px;
     height: 100px;
-    display: flex;
+    display: flex !important;
     justify-content: center;
     align-items: center;
 }
@@ -205,13 +205,19 @@
     object-fit: cover;
 }
 
-/* INGENIERIA */
+/* SERVICIOS */
+
+
+.tituloServicios{
+    margin: 20px;
+}
+
 
 /* CARD SERVICIOS */
 
 .cardServicios {
     min-height: 450px;
-    min-width: 190px;
+    min-width: 350px;
     height: 28rem;
     border-radius: 20px;
     border: 2px solid #c3c6ce;
@@ -250,6 +256,11 @@
         font-weight: bold;
     }
 
+    &:hover {
+        border-color: #6788a3;
+        box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+    }
+
     &:hover h4 {
         inset: auto auto 150px 30px;
         transition: inset .3s ease-out;
@@ -266,11 +277,6 @@
         transition: opacity .3s ease-in;
     }
 
-}
-
-.cardServicios:hover {
-    border-color: #6788a3;
-    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* CLIENTES */
@@ -296,13 +302,44 @@
     transform: scale(0.8);
 }
 
-@media only screen and (min-width:1281px) and (max-width:1600px) {
+@media only screen and (min-width:1401px) and (max-width:1600px) {
     .textoTitulo {
         max-width: 60%;
     }
 }
 
-@media only screen and (min-width:1085px) and (max-width:1280px) {
+@media only screen and (min-width:1281px) and (max-width:1400px) {
+    .textoTitulo {
+        max-width: 60%;
+    }
+
+    .cardServicios {
+        &:hover h4 {
+            inset: auto auto 190px 30px;
+            transition: inset .3s ease-out;
+        }
+    }
+
+}
+
+@media only screen and (min-width:1201px) and (max-width:1280px) {
+    .textoTitulo {
+        max-width: 70%;
+    }
+
+    .swiper-slide img {
+        max-width: 290px;
+    }
+
+    .cardServicios {
+        &:hover h4 {
+            inset: auto auto 190px 30px;
+            transition: inset .3s ease-out;
+        }
+    }
+}
+
+@media only screen and (min-width:1085px) and (max-width:1200px) {
     .textoTitulo {
         max-width: 70%;
     }
@@ -312,7 +349,7 @@
     }
 }
 
-@media only screen and (min-width:951px) and (max-width:1084px) {
+@media only screen and (min-width:993px) and (max-width:1084px) {
     .textoTitulo {
         max-width: 80%;
     }
@@ -320,6 +357,25 @@
     .swiper-slide img {
         max-width: 240px;
         max-height: 80px;
+    }
+
+}
+
+@media only screen and (min-width:951px) and (max-width:992px) {
+    .textoTitulo {
+        max-width: 80%;
+    }
+
+    .swiper-slide img {
+        max-width: 240px;
+        max-height: 80px;
+    }
+
+    .cardServicios {
+        &:hover h4 {
+            inset: auto auto 100px 30px;
+            transition: inset .3s ease-out;
+        }
     }
 
 }
@@ -337,6 +393,13 @@
         max-width: 240px;
         max-height: 80px;
     }
+
+    .cardServicios {
+        &:hover h4 {
+            inset: auto auto 100px 30px;
+            transition: inset .3s ease-out;
+        }
+    }
 }
 
 @media only screen and (min-width:581px) and (max-width:768px) {
@@ -351,6 +414,13 @@
     .swiper-slide img {
         max-width: 240px;
         max-height: 80px;
+    }
+
+    .cardServicios {
+        &:hover h4 {
+            inset: auto auto 120px 30px;
+            transition: inset .3s ease-out;
+        }
     }
 }
 
@@ -367,6 +437,13 @@
         max-width: 240px;
         max-height: 80px;
     }
+
+    .cardServicios {
+        &:hover h4 {
+            inset: auto auto 120px 30px;
+            transition: inset .3s ease-out;
+        }
+    }
 }
 
 @media only screen and (min-width:432px) and (max-width:500px) {
@@ -376,6 +453,13 @@
 
     .parallax {
         height: 1000px;
+    }
+
+    .cardServicios {
+        &:hover h4 {
+            inset: auto auto 140px 30px;
+            transition: inset .3s ease-out;
+        }
     }
 }
 
@@ -391,6 +475,13 @@
     .parallax {
         height: 1100px;
     }
+
+    .cardServicios {
+        &:hover h4 {
+            inset: auto auto 170px 30px;
+            transition: inset .3s ease-out;
+        }
+    }
 }
 
 @media only screen and (min-width:381px) and (max-width:405px) {
@@ -405,6 +496,13 @@
     .parallax {
         height: 1200px;
     }
+
+    .cardServicios {
+        &:hover h4 {
+            inset: auto auto 170px 30px;
+            transition: inset .3s ease-out;
+        }
+    }
 }
 
 @media only screen and (min-width:320px) and (max-width:380px) {
@@ -418,5 +516,12 @@
 
     .parallax {
         height: 1450px;
+    }
+
+    .cardServicios {
+        &:hover h4 {
+            inset: auto auto 190px 30px;
+            transition: inset .3s ease-out;
+        }
     }
 }

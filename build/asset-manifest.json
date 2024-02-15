@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Idelek-React/build/static/css/main.d32e5d3e.css",
-    "main.js": "/Idelek-React/build/static/js/main.dd9e8a05.js",
+    "main.css": "/Idelek-React/build/static/css/main.ae4679e3.css",
+    "main.js": "/Idelek-React/build/static/js/main.791e9efe.js",
     "static/media/plc.png": "/Idelek-React/build/static/media/plc.9d6adaaf9e321406d9f6.png",
     "static/media/telurimetro.png": "/Idelek-React/build/static/media/telurimetro.9c05a70746caf0cfdc3f.png",
     "static/media/materiales-electricos.png": "/Idelek-React/build/static/media/materiales-electricos.1e4546e59b3903c6c17d.png",
@@ -11,24 +11,26 @@
     "static/media/Montserrat-VariableFont_wght.ttf": "/Idelek-React/build/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
     "static/media/tablero-chico.png": "/Idelek-React/build/static/media/tablero-chico.2e2dedd825f8af1c4e24.png",
     "static/media/tableros-electricos-instalacion.png": "/Idelek-React/build/static/media/tableros-electricos-instalacion.fb6be3dd228ed771a129.png",
-    "static/media/tablero.jpg": "/Idelek-React/build/static/media/tablero.648b8b367740ff68aa97.jpg",
     "static/media/obras2.png": "/Idelek-React/build/static/media/obras2.84868661138cf39b4316.png",
     "static/media/bootstrap-icons.woff?": "/Idelek-React/build/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/tijera.jpg": "/Idelek-React/build/static/media/tijera.03605a3762f46f328a44.jpg",
     "static/media/plc-1200.png": "/Idelek-React/build/static/media/plc-1200.9cd745a015fa6e1ebb5e.png",
     "static/media/logoIdk.png": "/Idelek-React/build/static/media/logoIdk.d37e6b905cd9c68f00a2.png",
     "static/media/bootstrap-icons.woff2?": "/Idelek-React/build/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/plano.jpg": "/Idelek-React/build/static/media/plano.c4d6ca47230831ddd2f9.jpg",
     "static/media/comprobador-int-dif.png": "/Idelek-React/build/static/media/comprobador-int-dif.57299335eeba86eca458.png",
     "static/media/instalaciones.jpg": "/Idelek-React/build/static/media/instalaciones.5fe6699da9f05df33f74.jpg",
+    "static/media/hidrohelevador.jpg": "/Idelek-React/build/static/media/hidrohelevador.45e71dbe21eac5b5e6e8.jpg",
     "static/media/camara-termografica.png": "/Idelek-React/build/static/media/camara-termografica.2d94a5cb705f68c1673b.png",
     "static/media/mantenimiento1.png": "/Idelek-React/build/static/media/mantenimiento1.f3d7ad77fce8ea2afae4.png",
     "static/media/pliegos.png": "/Idelek-React/build/static/media/pliegos.6dd2cf2ee8fad717cbb5.png",
     "static/media/medicion.png": "/Idelek-React/build/static/media/medicion.aa7768912e8b4ee3ae63.png",
     "index.html": "/Idelek-React/build/index.html",
-    "main.d32e5d3e.css.map": "/Idelek-React/build/static/css/main.d32e5d3e.css.map",
-    "main.dd9e8a05.js.map": "/Idelek-React/build/static/js/main.dd9e8a05.js.map"
+    "main.ae4679e3.css.map": "/Idelek-React/build/static/css/main.ae4679e3.css.map",
+    "main.791e9efe.js.map": "/Idelek-React/build/static/js/main.791e9efe.js.map"
   },
   "entrypoints": [
-    "static/css/main.d32e5d3e.css",
-    "static/js/main.dd9e8a05.js"
+    "static/css/main.ae4679e3.css",
+    "static/js/main.791e9efe.js"
   ]
 }

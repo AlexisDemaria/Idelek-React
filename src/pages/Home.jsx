@@ -2,13 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 import LogosCLientes from '../json/LogosClientes.json'
 import LogoIdk from '../assets/images/logoIdk.png';
 import PLC from '../assets/images/plc-1200.png';
 import TableroGrande from '../assets/images/tableros-electricos-instalacion.png';
 import TableroChico from '../assets/images/tablero-chico.png';
-import "swiper/css";
-import "swiper/css/pagination";
 
 
 const Home = () => {
@@ -37,10 +37,10 @@ const Home = () => {
                 </section>
                 <section className='container-fluid p-0'>
                     <article className='position-relative'>
-                        <div class="parallax">
+                        <div className="parallax">
                         </div>
                         <div className='textoTitulo' >
-                            <h2 className='tituloQs'>QUIENES SOMOS</h2>
+                            <h2 className='tituloQs text-uppercase'>Quienes somos</h2>
                             <div className='textoHome' >
                                 <p>
                                     Somos una empresa de prestación de servicios con una experiencia de más de 30 años en el gremio de electricidad y electrónica industrial. Una evolución permanente en la confección de anteproyectos y proyectos de ingeniería, el diseño y armado de tableros eléctricos, ejecución de obras y montajes de nuevas instalaciones, y mantenimiento de las existentes.
@@ -55,7 +55,7 @@ const Home = () => {
                         </div>
                     </article>
                     <article className='container'>
-                        <h2 className='titulosHome text-uppercase'>Servicios</h2>
+                        <h2 className='tituloHome text-uppercase'>Servicios</h2>
                         <hr className='linea'></hr>
                         <div className='row'>
                             <div className="card col">
@@ -68,7 +68,7 @@ const Home = () => {
                             <div className="card col">
                                 <div className="card-details">
                                     <p className="text-title">Tableros eléctricos</p>
-                                    <p className="text-body">Construcción de TGBT (Tablero General de Baja Tensión), corrector factor de potencia (Coseno de Phi "φ"), de distribución, de control de potencia, y más.</p>
+                                    <p className="text-body">Construcción de TGBT (Tablero General de Baja Tensión), corrector de Coseno de Phi "φ", de distribución, de control de potencia, y más.</p>
                                 </div>
                                 <Link className='card-button' to='/tableros' >Ver más</Link>
                             </div>
@@ -105,8 +105,10 @@ const Home = () => {
                         </div>
                     </article>
                     <article className='container'>
-                        <h2 className='titulosHome text-uppercase'>Clientes</h2>
-                        <hr className='linea'></hr>
+                        <div>
+                            <h2 className='tituloHome text-uppercase'>Clientes</h2>
+                            <hr className='linea'></hr>
+                        </div>
                         <div>
                             <Swiper
                                 slidesPerView={1}
@@ -141,7 +143,7 @@ const Home = () => {
                             >
                                 {LogosCLientes.map((result, index) => (
                                     <SwiperSlide key={index}>
-                                        <img src={result.img} alt='' />
+                                        <img src={result.img} alt={result.title} />
                                     </SwiperSlide>
                                 ))}
                             </Swiper>

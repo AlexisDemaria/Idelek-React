@@ -9,7 +9,7 @@ const Ingenieria = () => {
             <main className='container'>
                 <section>
                     <div>
-                        <h2 className='text-center' style={{ margin: '10px' }}>Servicios de ingeniería eléctrica y electrónica</h2>
+                        <h2 className='text-center tituloServicios'>Servicios de ingeniería eléctrica y electrónica</h2>
                     </div>
                     <div className='row'>
                         <ul className="col list-group list-group-flush" style={{ minWidth: '250px', margin: '10px' }}>

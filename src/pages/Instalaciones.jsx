@@ -9,7 +9,7 @@ const Instalaciones = () => {
             <main className='container'>
                 <section>
                     <div>
-                        <h2 className='text-center' style={{ margin: '10px' }}>Obras, montajes e instalaciones eléctricas</h2>
+                        <h2 className='text-center tituloServicios' >Obras, montajes e instalaciones eléctricas</h2>
                     </div>
                     <div className='row'>
                         <ul className="col list-group list-group-flush" style={{ minWidth: '250px', margin: '10px' }}>
@@ -27,7 +27,7 @@ const Instalaciones = () => {
                     </div>
                 </section>
                 <div>
-                    <h2 className='text-center' style={{ margin: '10px' }}>Relevamiento, análisis y ejecución</h2>
+                    <h2 className='text-center tituloServicios' >Relevamiento, análisis y ejecución</h2>
                 </div>
                 <section className='row'>
                     <div className="cardServicios col">

@@ -9,7 +9,7 @@ const Mantenimiento = () => {
             <main className='container'>
                 <section>
                     <div>
-                        <h2 className='text-center' style={{ margin: '10px' }}>Mantenimiento eléctrico - electrónico</h2>
+                        <h2 className='text-center tituloServicios' >Mantenimiento eléctrico - electrónico</h2>
                     </div>
                     <div className=''>
                         <p style={{ fontSize: '20px' }}>Realizamos todo tipo de mantenimiento de electricidad y electrónica, montajes eléctricos, reparaciones, rehabilitaciones, reformas e instalaciones eléctricas, tanto industriales como comerciales, sea cual sea el tamaño de su empresa y la complejidad de los sistemas eléctricos.</p>

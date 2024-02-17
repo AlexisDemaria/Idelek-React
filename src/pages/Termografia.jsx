@@ -6,7 +6,7 @@ import IntDif from '../assets/images/servicios/comprobador-int-dif.png'
 const Termografia = () => {
     return (
         <>
-            <main className='container'>
+            <main className='container pag'>
                 <section>
                     <div>
                         <h2 className='text-center tituloServicios'>
@@ -21,13 +21,13 @@ const Termografia = () => {
                 </section>
                 <section className='row'>
                     <div className="cardServicios col">
-                        <img src={Termografia1} alt="Cámara termográfica" style={{opacity:'1'}} />
+                        <img src={Termografia1} alt="Cámara termográfica" style={{ opacity: '1' }} />
                     </div>
                     <div className="cardServicios col">
-                        <img src={Telurimentro} alt="Telurómetro" style={{opacity:'1'}} />
+                        <img src={Telurimentro} alt="Telurómetro" style={{ opacity: '1' }} />
                     </div>
                     <div className="cardServicios col">
-                        <img src={IntDif} alt="Comprobador de diferenciales" style={{opacity:'1'}} />
+                        <img src={IntDif} alt="Comprobador de diferenciales" style={{ opacity: '1' }} />
                     </div>
                 </section>
             </main>

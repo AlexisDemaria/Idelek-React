@@ -1,17 +1,11 @@
 import React from 'react';
-import Plano from '../assets/images/servicios/plano.jpg'
-// import Tablero1 from '../assets/images/servicios/tablero.jpg'
-// import Tablero2 from '../assets/images/servicios/tablero.jpg'
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
-import LogosCLientes from '../json/LogosClientes.json'
+import Plano from '../assets/images/servicios/plano.jpg';
 
 const Tableros = () => {
     return (
         <>
-            <main className='container'>
+
+            <main className='container pag'>
                 <section>
                     <div>
                         <h2 className='text-center tituloServicios'>Diseño y construcción de tableros eléctricos</h2>
@@ -33,46 +27,6 @@ const Tableros = () => {
                                 <p style={{ fontSize: '18px' }}><i className="bi bi-check2-circle" style={{ color: '#6788a3', padding: '6px', fontSize: '24px' }}></i>Arranque de motores para equipos de bombeo en baja tensión</p>
                                 <p style={{ fontSize: '18px' }}><i className="bi bi-check2-circle" style={{ color: '#6788a3', padding: '6px', fontSize: '24px' }}></i>Tableros especiales para protecciones de equipos industriales</p>
                                 <p style={{ fontSize: '18px' }}><i className="bi bi-check2-circle" style={{ color: '#6788a3', padding: '6px', fontSize: '24px' }}></i>Tableros para protección de instalaciones contra sobre tensiones y rayos</p>
-                            </div>
-                            <div className="col-4">
-                                <Swiper
-                                    slidesPerView={1}
-                                    spaceBetween={10}
-                                    autoplay={{
-                                        delay: 2500,
-                                        disableOnInteraction: false,
-                                    }}
-                                    pagination={{
-                                        clickable: true,
-                                    }}
-                                    breakpoints={{
-                                        "@0.00": {
-                                            slidesPerView: 1,
-                                            spaceBetween: 10,
-                                        },
-                                        "@0.75": {
-                                            slidesPerView: 2,
-                                            spaceBetween: 20,
-                                        },
-                                        "@1.00": {
-                                            slidesPerView: 3,
-                                            spaceBetween: 40,
-                                        },
-                                        "@1.50": {
-                                            slidesPerView: 4,
-                                            spaceBetween: 50,
-                                        },
-                                    }}
-                                    modules={[Autoplay, Pagination]}
-                                    className="mySwiper"
-                                >
-                                    {LogosCLientes.map((result, index) => (
-                                        <SwiperSlide key={index}>
-                                            <img src={result.img} alt={result.title} />
-                                        </SwiperSlide>
-                                    ))}
-                                </Swiper>
-                                {/* <img src={Tablero1} alt="" style={{ height: 'max-content', width: '100%', minWidth: '350px' }} /> */}
                             </div>
                         </div>
                         <div>

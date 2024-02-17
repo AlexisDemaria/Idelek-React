@@ -6,7 +6,7 @@ import Relevamiento from '../assets/images/servicios/relevamiento-obra.png'
 const Ingenieria = () => {
     return (
         <>
-            <main className='container'>
+            <main className='container pag'>
                 <section>
                     <div>
                         <h2 className='text-center tituloServicios'>Servicios de ingeniería eléctrica y electrónica</h2>

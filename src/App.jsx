@@ -10,7 +10,7 @@ import Tableros from './pages/Tableros'
 import Instalaciones from './pages/Instalaciones'
 import Mantenimiento from './pages/Mantenimiento'
 import Termografia from './pages/Termografia'
-import Alumbrado from './pages/Alumbrado'
+import Capacitacion from './pages/Capacitacion'
 import Clientes from './pages/Clientes';
 import Contacto from './pages/Contacto'
 
@@ -26,7 +26,7 @@ const App = () => {
                             <Route path='/instalaciones' element={<Instalaciones />} />
                             <Route path='/mantenimiento' element={<Mantenimiento />} />
                             <Route path='/termografia' element={<Termografia />} />
-                            <Route path='/alumbrado' element={<Alumbrado />} />
+                            <Route path='/capacitacion' element={<Capacitacion />} />
                             <Route path='/clientes' element={<Clientes />} />
                             <Route path='/contacto' element={<Contacto />} />
                         </Routes>

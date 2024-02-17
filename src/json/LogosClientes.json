@@ -1,210 +1,152 @@
 [
     {
-        "id":1,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FAUTEX.png?alt=media&token=5b730309-afdc-4069-9bf6-0c2c1287c83d",
-        "title":"Autex Open"
-    }
-    ,
-    
-    {
-        "id":2,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FBASUALDO.png?alt=media&token=d0b68ec0-275b-4bf2-9cdc-158d0ace37a9",
-        "title":"Basualdo"
-    }
-    ,
-    
-    {
-        "id":3,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FCOROBRA.png?alt=media&token=cfedfe9b-9b77-4a21-9f82-86fb6664abdc",
-        "title":"Corobra"
-    }
-    ,
-    
-    {
-        "id":4,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FDANICA.png?alt=media&token=18ce8a91-d370-4290-b72b-6ff28a046e4f",
-        "title":"Danica"
-    }
-    ,
-    
-    {
-        "id":5,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FDEICO.png?alt=media&token=384ba562-5def-40a3-837e-1d12b31a2a50",
-        "title":"Deico"
-    }
-    ,
-    
-    {
-        "id":6,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FDELTA.png?alt=media&token=12d41021-6df0-4361-b5f0-174e43b30fbf",
-        "title":"Delta"
-    }
-    ,
-    
-    {
-        "id":7,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FF2J.png?alt=media&token=e6417550-4294-4eb5-bf33-30a006921c26",
-        "title":"F2J Lighting"
-    }
-    ,
-    
-    {
-        "id":8,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FFAME.png?alt=media&token=4b01f514-a289-4842-8667-e93cf9a2baa6",
-        "title":"FAMESA"
-    }
-    ,
-    
-    {
-        "id":9,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FFARMACITY.png?alt=media&token=a0e64ba2-5fe4-45a0-b90c-6e1f27b691cf",
-        "title":"Farmacity"
+        "id": 1,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FAUTEX.png?alt=media&token=5b730309-afdc-4069-9bf6-0c2c1287c83d",
+        "title": "Autex Open"
     },
-    
     {
-        "id":10,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FFRC.png?alt=media&token=9ab3b9fb-86cd-4831-985c-a4496e6b54d9",
-        "title":"UTN FRC"
-    }
-    ,
-    
+        "id": 2,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FBASUALDO.png?alt=media&token=d0b68ec0-275b-4bf2-9cdc-158d0ace37a9",
+        "title": "Basualdo"
+    },
     {
-        "id":11,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FGAMA.png?alt=media&token=f0e0b721-f11a-491e-b128-0698d99d1523",
-        "title":"GAMA"
-    }
-    ,
-    
+        "id": 3,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FCOROBRA.png?alt=media&token=cfedfe9b-9b77-4a21-9f82-86fb6664abdc",
+        "title": "Corobra"
+    },
     {
-        "id":12,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FGESTAMP.png?alt=media&token=c5b69677-315b-4e2c-880a-7cf65086d595",
-        "title":"Gestamp"
-    }
-    ,
-    
+        "id": 4,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FDANICA.png?alt=media&token=18ce8a91-d370-4290-b72b-6ff28a046e4f",
+        "title": "Danica"
+    },
     {
-        "id":13,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FHIDROACCESORIOS.png?alt=media&token=b2e7b5a5-1bda-414f-b8f3-e73879bc634e",
-        "title":"Hidroaccesorios"
-    }
-    ,
-    
+        "id": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FDEICO.png?alt=media&token=384ba562-5def-40a3-837e-1d12b31a2a50",
+        "title": "Deico"
+    },
     {
-        "id":14,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FHORIZONTE.png?alt=media&token=37ad55db-472e-4b94-8b11-fcf79a970ea1",
-        "title":"Horizonte"
-    }
-    ,
-    
+        "id": 6,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FDELTA.png?alt=media&token=12d41021-6df0-4361-b5f0-174e43b30fbf",
+        "title": "Delta"
+    },
     {
-        "id":15,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FIVECO.png?alt=media&token=178e825f-86e8-4cf5-9003-0c540aee0764",
-        "title":"IVECO"
-    }
-    ,
-    
+        "id": 7,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FF2J.png?alt=media&token=e6417550-4294-4eb5-bf33-30a006921c26",
+        "title": "F2J Lighting"
+    },
     {
-        "id":16,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FLAMARCHESINA.png?alt=media&token=44b876e2-f88a-4f59-9664-67c91ea631fd",
-        "title":"La Marquesina"
-    }
-    ,
-    
+        "id": 8,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FFAME.png?alt=media&token=4b01f514-a289-4842-8667-e93cf9a2baa6",
+        "title": "FAMESA"
+    },
     {
-        "id":17,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FLORENZATI.png?alt=media&token=ad5d07dd-f335-40ca-83d1-d6daaa54ac1a",
-        "title":"Lorentazi"
-    }
-    ,
-    
+        "id": 9,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FFARMACITY.png?alt=media&token=a0e64ba2-5fe4-45a0-b90c-6e1f27b691cf",
+        "title": "Farmacity"
+    },
     {
-        "id":18,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FMM.png?alt=media&token=f6c3566f-541d-4203-8041-6bea6513f5cb",
-        "title":"Magnetti Marelli"
-    }
-    ,
-    
+        "id": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FFRC.png?alt=media&token=9ab3b9fb-86cd-4831-985c-a4496e6b54d9",
+        "title": "UTN FRC"
+    },
     {
-        "id":19,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FMTIDEAS.png?alt=media&token=06609dbb-0fbd-4377-857a-978b66588d66",
-        "title":"MT Ideas"
-    }
-    ,
-    
+        "id": 11,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FGAMA.png?alt=media&token=f0e0b721-f11a-491e-b128-0698d99d1523",
+        "title": "GAMA"
+    },
     {
-        "id":20,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FNUTRIEN.png?alt=media&token=5ac09fe7-da6f-455c-9519-2cd220a70612",
-        "title":"Nutrien"
-    }
-    ,
-    
+        "id": 13,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FHIDROACCESORIOS.png?alt=media&token=b2e7b5a5-1bda-414f-b8f3-e73879bc634e",
+        "title": "Hidroaccesorios"
+    },
     {
-        "id":21,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FPRAX.png?alt=media&token=f3cbeea6-7a8d-465d-9bef-f1cafefc5fb0",
-        "title":"Praxair"
-    }
-    ,
-    
+        "id": 14,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FHORIZONTE.png?alt=media&token=37ad55db-472e-4b94-8b11-fcf79a970ea1",
+        "title": "Horizonte"
+    },
     {
-        "id":22,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FPRITTY.png?alt=media&token=8112d597-c64e-40fd-8f26-5bea0aba9448",
-        "title":"Pritty"
-    }
-    ,
-    
+        "id": 15,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FIVECO.png?alt=media&token=178e825f-86e8-4cf5-9003-0c540aee0764",
+        "title": "IVECO"
+    },
     {
-        "id":23,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FRDC.png?alt=media&token=c59e221f-3c94-4878-ba37-00dbaaaf6205",
-        "title":"RDC"
-    }
-    ,
-    
+        "id": 16,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FLAMARCHESINA.png?alt=media&token=44b876e2-f88a-4f59-9664-67c91ea631fd",
+        "title": "La Marquesina"
+    },
     {
-        "id":24,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FROLA.png?alt=media&token=0767143f-aac2-4211-a760-7874848a60f8",
-        "title":"Rola Ing"
-    }
-    ,
-    
+        "id": 17,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FLORENZATI.png?alt=media&token=ad5d07dd-f335-40ca-83d1-d6daaa54ac1a",
+        "title": "Lorentazi"
+    },
     {
-        "id":25,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FSOGEFI.png?alt=media&token=7cfed592-738d-445c-a3f9-1fcf330fa0cd",
-        "title":"SOGEFI"
-    }
-    ,
-    
+        "id": 18,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FMM.png?alt=media&token=f6c3566f-541d-4203-8041-6bea6513f5cb",
+        "title": "Magnetti Marelli"
+    },
     {
-        "id":26,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FSTELLANTIS.png?alt=media&token=445e7272-1e3d-4023-8318-5b9a1a514caf",
-        "title":"Stellantis"
-    }
-    ,
-    
+        "id": 19,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FMTIDEAS.png?alt=media&token=06609dbb-0fbd-4377-857a-978b66588d66",
+        "title": "MT Ideas"
+    },
     {
-        "id":27,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FTARANTO.png?alt=media&token=fb8b8d46-c62c-4184-b8ed-eadba1a1971c",
-        "title":"Taranto"
-    }
-    ,
-    
+        "id": 20,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FNUTRIEN.png?alt=media&token=5ac09fe7-da6f-455c-9519-2cd220a70612",
+        "title": "Nutrien"
+    },
     {
-        "id":28,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FUBP.png?alt=media&token=73e946e5-7094-4853-94fa-e0a17bb17cc1",
-        "title":"UBP"
-    }
-    ,
-    
+        "id": 21,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FPRAX.png?alt=media&token=f3cbeea6-7a8d-465d-9bef-f1cafefc5fb0",
+        "title": "Praxair"
+    },
     {
-        "id":29,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FUEB.png?alt=media&token=fd474fba-74c1-4adb-a50e-d5e11c494fc9",
-        "title":"UEB"
-    }
-    ,
-    
+        "id": 22,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FPRITTY.png?alt=media&token=8112d597-c64e-40fd-8f26-5bea0aba9448",
+        "title": "Pritty"
+    },
     {
-        "id":30,
-        "img":"https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FUNC.png?alt=media&token=2cb364fd-d5ff-42af-9c59-195e1ec6d500",
-        "title":"UNC"
+        "id": 23,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FRDC.png?alt=media&token=c59e221f-3c94-4878-ba37-00dbaaaf6205",
+        "title": "RDC"
+    },
+    {
+        "id": 24,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FROLA.png?alt=media&token=0767143f-aac2-4211-a760-7874848a60f8",
+        "title": "Rola Ing"
+    },
+    {
+        "id": 25,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FSOGEFI.png?alt=media&token=7cfed592-738d-445c-a3f9-1fcf330fa0cd",
+        "title": "SOGEFI"
+    },
+    {
+        "id": 26,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FSTELLANTIS.png?alt=media&token=445e7272-1e3d-4023-8318-5b9a1a514caf",
+        "title": "Stellantis"
+    },
+    {
+        "id": 27,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FTARANTO.png?alt=media&token=fb8b8d46-c62c-4184-b8ed-eadba1a1971c",
+        "title": "Taranto"
+    },
+    {
+        "id": 28,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FUBP.png?alt=media&token=73e946e5-7094-4853-94fa-e0a17bb17cc1",
+        "title": "UBP"
+    },
+    {
+        "id": 13,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FTGN.png?alt=media&token=149c1a52-0a3a-41e4-8a91-3a996d4b5103",
+        "title": "Transportadora de Gas del Norte"
+    },
+    {
+        "id": 29,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FUEB.png?alt=media&token=fd474fba-74c1-4adb-a50e-d5e11c494fc9",
+        "title": "UEB"
+    },
+    {
+        "id": 30,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FUNC.png?alt=media&token=2cb364fd-d5ff-42af-9c59-195e1ec6d500",
+        "title": "UNC"
     }
-
 ]

@@ -1,12 +1,12 @@
 import React from 'react';
 import Instalaciones1 from '../assets/images/servicios/montaje-bandejas.png'
-import Instalaciones2 from '../assets/images/servicios/obras2.png'
 import Instalaciones3 from '../assets/images/servicios/instalaciones.jpg'
+import Tijera from '../assets/images/servicios/tijera.jpg'
 
 const Instalaciones = () => {
     return (
         <>
-            <main className='container'>
+            <main className='container pag'>
                 <section>
                     <div>
                         <h2 className='text-center tituloServicios' >Obras, montajes e instalaciones eléctricas</h2>
@@ -22,7 +22,7 @@ const Instalaciones = () => {
                             <li className="list-group-item">Instalaciones neumáticas</li>
                             <li className="list-group-item">Relevamiento, análisis y diagnostico de sistemas</li>
                             <li className="list-group-item">Puesta en marcha</li>
-                            <li className="list-group-item">Servicios de capacitación</li>
+                            <li className="list-group-item">Alumbrado publico interno y/o externo</li>
                         </ul>
                     </div>
                 </section>
@@ -34,7 +34,7 @@ const Instalaciones = () => {
                         <img src={Instalaciones1} alt="Bandejas portacables" style={{ opacity: '1' }} />
                     </div>
                     <div className="cardServicios col">
-                        <img src={Instalaciones2} alt="Maquinaria" style={{ opacity: '1' }} />
+                        <img src={Tijera} alt="Maquinaria" style={{ opacity: '1' }} />
                     </div>
                     <div className="cardServicios col">
                         <img src={Instalaciones3} alt="Maquina neumática" style={{ opacity: '1' }} />

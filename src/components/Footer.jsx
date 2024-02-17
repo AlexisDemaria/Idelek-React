@@ -15,7 +15,7 @@ const Footer = () => {
                                 <p><Link to='/instalaciones' className="text-reset">Instalaciones</Link></p>
                                 <p><Link to='/mantenimiento' className="text-reset">Mantenimiento</Link></p>
                                 <p><Link to='/termografia' className="text-reset">Termografía y mediciones</Link></p>
-                                <p><Link to='/alumbrado' className="text-reset">Alumbrado público</Link></p>
+                                <p><Link to='/capacitacion' className="text-reset">Capacitación</Link></p>
                             </div>
                             <div className="col-sm mt-4 fw-bold">
                                 <h5 className="text-uppercase fw-bold mb-4">Contacto</h5>

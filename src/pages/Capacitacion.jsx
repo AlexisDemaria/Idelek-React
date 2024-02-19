@@ -12,7 +12,7 @@ const Capacitacion = () => {
                         </div>
                         <div className=''>
                             <p style={{ fontSize: '20px' }}>En Idelek S.A.S. ofrecemos  charlas y cursos personalizados para ayudar a los operarios de las industrias a adquirir las habilidades y conocimientos eléctricos necesarios para obrar en la misma.</p>
-                            <div className="row" style={{}}>
+                            <div className="row" style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
                                 <div className="col">
                                     <p style={{ fontSize: '20px' }}>Nuestras charlas y cursos:</p>
                                         <ul style={{ fontSize: '18px', minWidth:'350px' }}>

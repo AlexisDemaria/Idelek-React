@@ -34,14 +34,11 @@
 
 // $rta = $mailer->send( );
 
-
-// Configuración de PHPMailer
 require_once "class.phpmailer.php";
 require 'phpmailer/PHPMailer.php';
 require 'phpmailer/Exception.php';
 use PHPMailer\PHPMailer\PHPMailer;
 
-// Recibir datos del formulario
 $nombreEmpresa = $_POST['nombreEmpresa'];
 $nombre = $_POST['name'];
 $email = $_POST['email'];
@@ -49,23 +46,20 @@ $telefono = $_POST['phone'];
 $ciudad = $_POST['location'];
 $mensaje = $_POST['message'];
 
-$mail = new PHPMailer(); // Crea un objeto PHPMailer
+$mail = new PHPMailer();
 
-// Configuraciones de SMTP (modifica con los datos de tu servidor)
 $mail->isSMTP();
-$mail->Host = "mail.idelek.com.ar"; // Reemplaza con tu servidor SMTP
+$mail->Host = "mail.idelek.com.ar";
 $mail->SMTPAuth = true;
-$mail->Username = "test@idelek.com.ar"; // Reemplaza con tu usuario SMTP
-$mail->Password = "IqJW9X.Q1[J)"; // Reemplaza con tu contraseña SMTP
-$mail->SMTPSecure = 'ssl'; // O 'tls' según tu servidor
-$mail->Port = 465; // O 587 según tu servidor
+$mail->Username = "test@idelek.com.ar";
+$mail->Password = "IqJW9X.Q1[J)";
+$mail->SMTPSecure = 'ssl'; 
+$mail->Port = 465; 
 
-// Configuración del mensaje
-$mail->setFrom('test@idelek.com.ar', 'Prueba'); // Remitente
-$mail->addAddress($email); // Destinatario
-$mail->Subject = "Mensaje web: $mensaje"; // Asunto
+$mail->setFrom('test@idelek.com.ar', 'Prueba'); 
+$mail->addAddress($email);
+$mail->Subject = "Mensaje web: $mensaje"; 
 
-// Contenido del mensaje
 $mail->Body = "Nombre de la empresa: $nombreEmpresa \n";
 $mail->Body .= "Nombre: $nombre \n";
 $mail->Body .= "Email: $email \n";
@@ -73,10 +67,9 @@ $mail->Body .= "Teléfono: $telefono \n";
 $mail->Body .= "Ciudad: $ciudad \n";
 $mail->Body .= "Mensaje: $mensaje \n";
 
-// Enviar el email
 if(!$mail->send()) {
-    echo "Error al enviar el email: " . $mail->ErrorInfo;
+    echo "Error: " . $mail->ErrorInfo;
 } else {
-    echo "Email enviado exitosamente!";
-// }
+    echo "Email enviado";
+}
 ?>

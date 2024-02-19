@@ -14,22 +14,25 @@ import Capacitacion from './pages/Capacitacion'
 import Clientes from './pages/Clientes';
 import Contacto from './pages/Contacto'
 
+
 const App = () => {
     return (
         <>
             <BrowserRouter>
                 <NavBar />
-                        <Routes>
-                            <Route path='/' element={<Home />} />
-                            <Route path='/ingenieria' element={<Ingenieria />} />
-                            <Route path='/tableros' element={<Tableros />} />
-                            <Route path='/instalaciones' element={<Instalaciones />} />
-                            <Route path='/mantenimiento' element={<Mantenimiento />} />
-                            <Route path='/termografia' element={<Termografia />} />
-                            <Route path='/capacitacion' element={<Capacitacion />} />
-                            <Route path='/clientes' element={<Clientes />} />
-                            <Route path='/contacto' element={<Contacto />} />
-                        </Routes>
+
+                    <Routes>
+                        <Route path='/' element={<Home />} />
+                        <Route path='/ingenieria' element={<Ingenieria />} />
+                        <Route path='/tableros' element={<Tableros />} />
+                        <Route path='/instalaciones' element={<Instalaciones />} />
+                        <Route path='/mantenimiento' element={<Mantenimiento />} />
+                        <Route path='/termografia' element={<Termografia />} />
+                        <Route path='/capacitacion' element={<Capacitacion />} />
+                        <Route path='/clientes' element={<Clientes />} />
+                        <Route path='/contacto' element={<Contacto />} />
+                    </Routes>
+
                 <Footer />
                 <ScrollToTopButton />
             </BrowserRouter>

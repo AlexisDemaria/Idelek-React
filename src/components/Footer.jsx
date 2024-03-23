@@ -27,9 +27,16 @@ const Footer = () => {
                         </div>
                     </div>
                 </section>
-                <div className="text-center p-4" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-                    © 2024 Copyright - Todos los derechos reservados de IDELEK S.A.S
-                </div>
+                <section className='container-fluid'>
+                    <div className="text-center p-4 row" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)', display:'flex', alignItems:'center', justifyContent:'center'}}>
+                        <p className='col' style={{minWidth:'300px'}} >© 2024 Copyright - Todos los derechos reservados de IDELEK S.A.S</p>
+                        <div className='col' style={{ height: '70px' }}>
+                            <a href="http://qr.afip.gob.ar/?qr=n0x3DUDFrPJY8FH550P6ag,," target="_F960AFIPInfo">
+                                <img style={{ maxHeight: '100%' }} src="http://www.afip.gob.ar/images/f960/DATAWEB.jpg" alt="Data Fiscal Idelek" border={0} />
+                            </a>
+                        </div>
+                    </div>
+                </section>
             </footer>
         </div>
     );

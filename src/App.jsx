@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import ScrollToTop from './utils/ScrollToTop';
 import '../src/css/App.css'
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
@@ -19,8 +20,8 @@ const App = () => {
     return (
         <>
             <BrowserRouter>
-                <NavBar />
-
+                <NavBar/>
+                    <ScrollToTop/>
                     <Routes>
                         <Route path='/' element={<Home />} />
                         <Route path='/ingenieria' element={<Ingenieria />} />
@@ -32,8 +33,7 @@ const App = () => {
                         <Route path='/clientes' element={<Clientes />} />
                         <Route path='/contacto' element={<Contacto />} />
                     </Routes>
-
-                <Footer />
+                <Footer/>
                 <ScrollToTopButton />
             </BrowserRouter>
         </>

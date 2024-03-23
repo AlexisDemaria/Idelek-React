@@ -1,75 +1,84 @@
 <?php
-// if($_SERVER['REQUEST_METHOD'] != 'POST' ){
-//     header("Location: index.html" );
-// }
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-// require 'phpmailer/PHPMailer.php';
-// require 'phpmailer/Exception.php';
+require '../PHPMailer/PHPMailer.php';
+require '../PHPMailer/Exception.php';
+require '../PHPMailer/SMTP.php';
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $nombreEmpresa = $_POST['nombreEmpresa'];
+    $nombre = $_POST['name'];
+    $email = $_POST['email'];
+    $telefono = $_POST['phone'];
+    $ciudad = $_POST['location'];
+    $mensaje = $_POST['message'];
+    $mail = new PHPMailer(true);
+    try {
+        $mail->isSMTP();
+        $mail->Host = "mail.idelek.com.ar";
+        $mail->SMTPAuth = true;
+        $mail->Username = "test@idelek.com.ar";
+        $mail->Password = "IqJW9X.Q1[J)";
+        $mail->SMTPSecure = 'ssl';
+        $mail->Port = 465;
+        $mail->setFrom($email, 'Usuario');
+        $mail->addAddress('info@idelek.com.ar');
+        $mail->isHTML(true);
+        $mail->Subject = 'Nuevo mensaje de contacto';
+        $mail->Body = "
+            <p><b>Empresa:</b> $nombreEmpresa</p>
+            <p><b>Nombre:</b> $nombre</p>
+            <p><b>Email:</b> $email</p>
+            <p><b>Teléfono:</b> $telefono</p>
+            <p><b>Ciudad:</b> $ciudad</p>
+            <p><b>Mensaje:</b> $mensaje</p>
+        ";
+        $mail->send();
+        echo '¡Correo enviado con éxito!';
+    } catch (Exception $e) {
+        echo "Error al enviar el correo: {$mail->ErrorInfo}";
+    }
+}
 
 // use PHPMailer\PHPMailer\PHPMailer;
+// use PHPMailer\PHPMailer\Exception;
 
-// $nombreEmpresa = $_POST ['nombreEmpresa'];
-// $nombre = $_POST ['name'];
-// $email = $_POST ['email'];
-// $telefono = $_POST ['phone'];
-// $ciudad = $_POST ['location'];
-// $mensaje = $_POST ['message'];
+// require 'PHPMailer/PHPMailer.php';
+// require 'PHPMailer/Exception.php';
 
-// $body = <<<HTML
-//     <h1>Contacto desde la página web</h1>
-//     <p>De: $nombre $apellido / $email</p>
-//     <p>Numero de teléfono: $telefono y ciudad: $ciudad</p>
-//     <h2>Mensaje</h2>
-//     $mensaje
-// HTML;
+// $nombreEmpresa = $_GET['nombreEmpresa'];
+// $nombre = $GET['name'];
+// $email = $GET['email'];
+// $telefono = $GET['phone'];
+// $ciudad = $GET['location'];
+// $mensaje = $GET['message'];
 
-// $mailer = new PHPMailer();
-// $mailer->setFrom( $email, "$nombre $apellido" );
-// $mailer->addAddress('dademaria10@gmail.com','Sitio web');
-// $mailer->Subject = "Mensaje web: $mensaje";
-// $mailer->msgHTML($body);
-// $mailer->AltBody = strip_tags($body);
-// $mailer->CharSet = 'UTF-8';
+// $mail = new PHPMailer();
 
+// $mail->isSMTP();
+// $mail->Host = "mail.idelek.com.ar";
+// $mail->SMTPAuth = true;
+// $mail->Username = "test@idelek.com.ar";
+// $mail->Password = "IqJW9X.Q1[J)";
+// $mail->SMTPSecure = 'ssl'; 
+// $mail->Port = 465; 
 
-// $rta = $mailer->send( );
+// $mail->setFrom($email, 'Prueba'); 
+// $mail->addAddress('info@idelek.com.ar');
+// $mail->Subject = "Mensaje web: $mensaje"; 
 
-require_once "class.phpmailer.php";
-require 'phpmailer/PHPMailer.php';
-require 'phpmailer/Exception.php';
-use PHPMailer\PHPMailer\PHPMailer;
+// $mail->Body = "Nombre de la empresa: $nombreEmpresa \n";
+// $mail->Body .= "Nombre: $nombre \n";
+// $mail->Body .= "Email: $email \n";
+// $mail->Body .= "Teléfono: $telefono \n";
+// $mail->Body .= "Ciudad: $ciudad \n";
+// $mail->Body .= "Mensaje: $mensaje \n";
 
-$nombreEmpresa = $_POST['nombreEmpresa'];
-$nombre = $_POST['name'];
-$email = $_POST['email'];
-$telefono = $_POST['phone'];
-$ciudad = $_POST['location'];
-$mensaje = $_POST['message'];
+// if(!$mail->send()) {
+//     echo "Error: " . $mail->ErrorInfo;
+// } else {
+//     echo "Email enviado";
+// }
 
-$mail = new PHPMailer();
-
-$mail->isSMTP();
-$mail->Host = "mail.idelek.com.ar";
-$mail->SMTPAuth = true;
-$mail->Username = "test@idelek.com.ar";
-$mail->Password = "IqJW9X.Q1[J)";
-$mail->SMTPSecure = 'ssl'; 
-$mail->Port = 465; 
-
-$mail->setFrom('test@idelek.com.ar', 'Prueba'); 
-$mail->addAddress($email);
-$mail->Subject = "Mensaje web: $mensaje"; 
-
-$mail->Body = "Nombre de la empresa: $nombreEmpresa \n";
-$mail->Body .= "Nombre: $nombre \n";
-$mail->Body .= "Email: $email \n";
-$mail->Body .= "Teléfono: $telefono \n";
-$mail->Body .= "Ciudad: $ciudad \n";
-$mail->Body .= "Mensaje: $mensaje \n";
-
-if(!$mail->send()) {
-    echo "Error: " . $mail->ErrorInfo;
-} else {
-    echo "Email enviado";
-}
 ?>

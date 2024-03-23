@@ -1,6 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useNavigate } from "react-router-dom";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Contacto = () => {
+    const [captchaValue, setCaptchaValue] = useState(null);
+    const navigate = useNavigate();
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        if (captchaValue) {
+            navigate("/")
+            console.log('Formulario enviado');
+        } else {
+            console.log('Por favor, completa el captcha');
+        }
+    }
+
+    const onChange = (value) => {
+        setCaptchaValue(value)
+    }
+
     return (
         <>
             <main className='container pag'>
@@ -29,7 +47,7 @@ const Contacto = () => {
                                 </div>
                             </div>
                             <div className="col">
-                                <form className="msg-form" method='post' action='mail.php' encType='multipart/form-data'>
+                                <form className="msg-form" method='post' action='mail.php' encType='multipart/form-data' onSubmit={handleSubmit}>
                                     <div className="form-group">
                                         <label htmlFor="name" className="h6">Empresa</label>
                                         <div className="input-group border rounded">
@@ -93,6 +111,9 @@ const Contacto = () => {
                                             defaultValue={""}
                                             required />
                                     </div>
+                                    <div className='reCaptcha'>
+                                        <ReCAPTCHA sitekey="6LcA134pAAAAAOPRTALhOmGSkRVjtTTJBJhowa8o" onChange={onChange} />,
+                                    </div>
                                     {/* <div className="">
                                         <label htmlFor="exampleFormControlFile1" className="h6">Adjunte el archivo que desee</label>
                                         <div className="input-group border rounded">
@@ -102,9 +123,9 @@ const Contacto = () => {
                                             <input type="file" name="archivo" />
                                         </div>
                                     </div> */}
-                                    <div className="form-group d-flex justify-content-center align-items">
+                                    <div className=" d-flex justify-content-center align-items">
                                         {/* <button type="submit" className="btn form-button" defaultValue="">Enviar consulta</button> */}
-                                        <input type="submit" className="btn form-button" defaultValue="" />
+                                        <input type="submit" className="btn form-button" defaultValue="" disabled={!captchaValue}/>
                                     </div>
                                 </form>
                             </div>

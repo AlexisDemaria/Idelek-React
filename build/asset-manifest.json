@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e168703.css",
-    "main.js": "/static/js/main.ae92b1a8.js",
+    "main.css": "/static/css/main.d8be305f.css",
+    "main.js": "/static/js/main.d66f9979.js",
+    "static/media/Certificado PROFINET.png": "/static/media/Certificado PROFINET.bc08adf96c0deec3d461.png",
     "static/media/plc.png": "/static/media/plc.9d6adaaf9e321406d9f6.png",
     "static/media/telurimetro.png": "/static/media/telurimetro.9c05a70746caf0cfdc3f.png",
     "static/media/materiales-electricos.png": "/static/media/materiales-electricos.1e4546e59b3903c6c17d.png",
@@ -26,11 +27,11 @@
     "static/media/medicion.png": "/static/media/medicion.aa7768912e8b4ee3ae63.png",
     "static/media/capacitacion.png": "/static/media/capacitacion.c3a8f88a024fbd994b5b.png",
     "index.html": "/index.html",
-    "main.4e168703.css.map": "/static/css/main.4e168703.css.map",
-    "main.ae92b1a8.js.map": "/static/js/main.ae92b1a8.js.map"
+    "main.d8be305f.css.map": "/static/css/main.d8be305f.css.map",
+    "main.d66f9979.js.map": "/static/js/main.d66f9979.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e168703.css",
-    "static/js/main.ae92b1a8.js"
+    "static/css/main.d8be305f.css",
+    "static/js/main.d66f9979.js"
   ]
 }

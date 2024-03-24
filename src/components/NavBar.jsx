@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
-import LogoIdk from '../assets/images/logoIdk.png'
+import { Link } from 'react-router-dom';
+import LogoIdk from '../assets/images/logoIdk.png';
 
 const NavBar = () => {
     return (

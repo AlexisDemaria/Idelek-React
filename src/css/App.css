@@ -1,4 +1,4 @@
-/* BOTóN IR ARRIBA */
+/* BOTON IR ARRIBA */
 
 @keyframes slideIn {
     0% {
@@ -213,6 +213,7 @@
     object-fit: cover;
 }
 
+
 /* SERVICIOS */
 
 
@@ -231,8 +232,9 @@
 .cardServicios {
     min-height: 450px;
     min-width: 320px;
+    max-width: 400px;
     height: 28rem;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 2px solid #c3c6ce;
     overflow: hidden;
     position: relative;
@@ -245,26 +247,27 @@
         width: 100%;
         height: 100%;
         left: 0;
+        transition: opacity 0.8s ease-out;
     }
 
     h4 {
         position: absolute;
-        inset: auto auto 30px 30px;
+        inset: auto auto 30px 20px;
         margin: 0;
         transition: inset .3s .3s ease-out;
-        font-weight: normal;
+        font-weight: bold;
         text-transform: uppercase;
     }
 
     p {
         position: absolute;
         max-width: 100%;
-        inset: auto auto -50% 30px;
         opacity: 0;
         color: black;
         font-size: 16px;
-        margin-right: 2vh;
         font-weight: bold;
+        margin-right: 2vh;
+        inset: auto auto -50% 20px;
     }
 
     &:hover {
@@ -273,19 +276,19 @@
     }
 
     &:hover h4 {
-        inset: auto auto 150px 30px;
+        inset: auto auto 170px 20px;
         transition: inset .3s ease-out;
     }
 
     &:hover p {
-        inset: auto auto 10px 30px;
+        inset: auto auto 10px 20px;
         transition: inset 0.4s ease-out;
         opacity: 1;
     }
 
     &:hover img {
         opacity: 0.5;
-        transition: opacity .3s ease-in;
+        transition: opacity 0.3s ease-in;
     }
 
 }
@@ -315,6 +318,8 @@
 
 
 /* CONTACTO */
+
+
 .form {
     display: flex;
     align-items: center;
@@ -325,7 +330,7 @@
     margin-top: 6vh;
     background-color: #616161;
     border-radius: 5px;
-    padding: 25px;
+    padding: 18px;
     min-width: 100%;
 }
 
@@ -362,10 +367,16 @@
     }
 }
 
+.iconosForm {
+    display: flex;
+    align-items: center;
+}
+
 .reCaptcha {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 12px;
 }
 
 
@@ -379,14 +390,6 @@
     .textoTitulo {
         max-width: 60%;
     }
-
-    .cardServicios {
-        &:hover h4 {
-            inset: auto auto 190px 30px;
-            transition: inset .3s ease-out;
-        }
-    }
-
 }
 
 @media only screen and (min-width:1201px) and (max-width:1280px) {
@@ -396,13 +399,6 @@
 
     .swiper-slide img {
         max-width: 290px;
-    }
-
-    .cardServicios {
-        &:hover h4 {
-            inset: auto auto 190px 30px;
-            transition: inset .3s ease-out;
-        }
     }
 }
 
@@ -447,7 +443,7 @@
 
     .cardServicios {
         &:hover h4 {
-            inset: auto auto 100px 30px;
+            inset: auto auto 190px 20px;
             transition: inset .3s ease-out;
         }
     }
@@ -473,7 +469,7 @@
 
     .cardServicios {
         &:hover h4 {
-            inset: auto auto 100px 30px;
+            inset: auto auto 190px 20px;
             transition: inset .3s ease-out;
         }
     }
@@ -497,13 +493,6 @@
         max-height: 80px;
     }
 
-    .cardServicios {
-        &:hover h4 {
-            inset: auto auto 120px 30px;
-            transition: inset .3s ease-out;
-        }
-    }
-
     .textoIng {
         width: 100%;
     }
@@ -523,13 +512,6 @@
         max-height: 80px;
     }
 
-    .cardServicios {
-        &:hover h4 {
-            inset: auto auto 120px 30px;
-            transition: inset .3s ease-out;
-        }
-    }
-
     .textoIng {
         width: 100%;
     }
@@ -544,18 +526,11 @@
         height: 1000px;
     }
 
-    .cardServicios {
-        &:hover h4 {
-            inset: auto auto 140px 30px;
-            transition: inset .3s ease-out;
-        }
-    }
-
     .textoIng {
         width: 100%;
     }
 
-    .copyright{
+    .copyright {
         margin-bottom: 15px;
     }
 }
@@ -575,7 +550,7 @@
 
     .cardServicios {
         &:hover h4 {
-            inset: auto auto 170px 30px;
+            inset: auto auto 170px 20px;
             transition: inset .3s ease-out;
         }
     }
@@ -584,7 +559,7 @@
         width: 100%;
     }
 
-    .copyright{
+    .copyright {
         margin-bottom: 15px;
     }
 }
@@ -604,7 +579,7 @@
 
     .cardServicios {
         &:hover h4 {
-            inset: auto auto 170px 30px;
+            inset: auto auto 170px 20px;
             transition: inset .3s ease-out;
         }
     }
@@ -613,7 +588,7 @@
         width: 100%;
     }
 
-    .copyright{
+    .copyright {
         margin-bottom: 15px;
     }
 }
@@ -633,7 +608,7 @@
 
     .cardServicios {
         &:hover h4 {
-            inset: auto auto 190px 30px;
+            inset: auto auto 190px 20px;
             transition: inset .3s ease-out;
         }
     }
@@ -642,7 +617,7 @@
         width: 100%;
     }
 
-    .copyright{
+    .copyright {
         margin-bottom: 15px;
     }
 }

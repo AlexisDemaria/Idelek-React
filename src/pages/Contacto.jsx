@@ -40,7 +40,7 @@ const Contacto = () => {
                                         title='Ubicación Idelek'
                                     />
                                 </div>
-                                <div className="links" id="bordering">
+                                <div className="links">
                                     <p><a className='' href='https://maps.app.goo.gl/qtHc1mjJZHagBLH39'><i style={{ padding: '6px' }} className="bi bi-geo-alt-fill" />Alonso de Reinoso 3449 - Córdoba capital, Córdoba, Argentina.</a></p>
                                     <p><a className='' href='mailto:info@idelek.com.ar'><i style={{ padding: '6px' }} className="bi bi-envelope-at-fill" />info@idelek.com.ar</a></p>
                                     <p><a className='' href='tel:+5493515165848'><i style={{ padding: '6px' }} className="bi bi-telephone-fill" />351-5165848</a></p>
@@ -51,7 +51,7 @@ const Contacto = () => {
                                     <div className="form-group">
                                         <label htmlFor="name" className="h6">Empresa</label>
                                         <div className="input-group border rounded">
-                                            <div className="input-group-addon px-2 pt-1">
+                                            <div className="input-group-addon px-2 pt-1 iconosForm">
                                                 <i className="bi bi-building"></i>
                                             </div>
                                             <input type="text" name='nombreEmpresa' className="form-control border-0" placeholder='Nombre de la empresa' required />
@@ -60,7 +60,7 @@ const Contacto = () => {
                                     <div className="form-group">
                                         <label htmlFor="name" className="h6">Nombre</label>
                                         <div className="input-group border rounded">
-                                            <div className="input-group-addon px-2 pt-1">
+                                            <div className="input-group-addon px-2 pt-1 iconosForm">
                                                 <i className="bi bi-person-fill"></i>
                                             </div>
                                             <input type="text" name='name' className="form-control border-0" placeholder='Su nombre' required />
@@ -69,7 +69,7 @@ const Contacto = () => {
                                     <div className="form-group">
                                         <label htmlFor="exampleInputEmail1" className="h6">Email</label>
                                         <div className="input-group border rounded">
-                                            <div className="input-group-addon px-2 pt-1">
+                                            <div className="input-group-addon px-2 pt-1 iconosForm">
                                                 <i className="bi bi-envelope-fill"></i>
                                             </div>
                                             <input type="email" name='email' className="form-control border-0" placeholder='ejemplo@email.com' required />
@@ -78,9 +78,9 @@ const Contacto = () => {
                                     <div className="row">
                                         <div className="col" style={{ minWidth: '200px' }}>
                                             <div className="form-group">
-                                                <label htmlFor="" className="h6">Telefono</label>
+                                                <label htmlFor="" className="h6">Teléfono</label>
                                                 <div className="input-group border rounded">
-                                                    <div className="input-group-addon px-2 pt-1">
+                                                    <div className="input-group-addon px-2 pt-1 iconosForm">
                                                         <i className="bi bi-telephone-fill"></i>
                                                     </div>
                                                     <input type="tel" name="phone" className="form-control border-0" placeholder='Número celular' />
@@ -91,7 +91,7 @@ const Contacto = () => {
                                             <div className="form-group">
                                                 <label htmlFor="" className="h6">Ciudad</label>
                                                 <div className="input-group border rounded">
-                                                    <div className="input-group-addon px-2 pt-1">
+                                                    <div className="input-group-addon px-2 pt-1 iconosForm">
                                                         <i className="bi bi-pin-map-fill"></i>
                                                     </div>
                                                     <input type="location" name='location' className="form-control border-0" placeholder='Localidad' />
@@ -103,11 +103,10 @@ const Contacto = () => {
                                         <label htmlFor="msg" className="h6">Mensaje</label>
                                         <textarea
                                             name="message"
-                                            id="msgus"
                                             cols={10}
                                             rows={5}
                                             className="form-control bg-light"
-                                            placeholder="En que lo podemos ayudar..."
+                                            placeholder="Necesitamos sus implementaciones en..."
                                             defaultValue={""}
                                             required />
                                     </div>
@@ -125,7 +124,7 @@ const Contacto = () => {
                                     </div> */}
                                     <div className=" d-flex justify-content-center align-items">
                                         {/* <button type="submit" className="btn form-button" defaultValue="">Enviar consulta</button> */}
-                                        <input type="submit" className="btn form-button" defaultValue="" disabled={!captchaValue}/>
+                                        <input type="submit" className="btn form-button" defaultValue="" disabled={!captchaValue} />
                                     </div>
                                 </form>
                             </div>

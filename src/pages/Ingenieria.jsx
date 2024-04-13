@@ -30,7 +30,7 @@ const Ingenieria = () => {
                 <div>
                     <h3 className='text-center' style={{ margin: '10px' }}>Generación y ejecución de proyectos</h3>
                 </div>
-                <section className='row'>
+                <section className='row' style={{display:'flex', justifyContent:'center'}}>
                     <div className="cardServicios col">
                         <img src={Materiales} alt="Materiales eléctricos" />
                         <div className="card-content">
@@ -50,22 +50,21 @@ const Ingenieria = () => {
                         </div>
                     </div>
                 </section>
-                <section>
+                <section className=''>
                     <div>
                         <h3 className='text-center' style={{ margin: '10px' }}>Redes PROFINET</h3>
                     </div>
                     <div className='row'>
-                        <div className='col-8  textoIng' style={{maxWidth:'100%'}}>
+                        <div className='col-8  textoIng' style={{ maxWidth: '100%' }}>
                             <p>Se cuenta con la certificación internacional, capacidad y calidad técnica para realizar instalaciones o mantenimiento en redes PROFINET.</p>
                             <p>PROFINET (PROcess FIeld NETwork) es un protocolo de comunicación desarrollado por la organización PROFIBUS & PROFINET International (PI). Está diseñado para conectar dispositivos industriales con varios tipos de equipamiento productivo, como motores, sensores y otros dispositivos electrónicos.</p>
                             <p>Es una tecnología de red de campo para la comunicación entre equipos industriales y controladores. Está basado en Ethernet y se usa para interconectar dispositivos dentro de sistemas automatizados para el ahorro de tiempo, reducción de costes y mejora del rendimiento. </p>
                             <p>El estándar PROFINET ofrece los siguientes beneficios:
-                            En primer lugar, proporciona alta velocidad de comunicación a partir de 100 Mbps, lo que permite realizar múltiples tareas simultáneamente al mismo tiempo. También admite protocolos flexibles para permitir a los dispositivos compartir información sin conflictos. Además, el estándar PROFINET ofrece una arquitectura escalable que permite añadir dispositivos fácilmente según sea necesario. Utiliza estructuras jerárquicas complejas, lo que facilita la gestión del sistema, y también posee capacidades autodescriptivas e interoperables que simplifican el diseño y la configuración de redes.</p>
+                                En primer lugar, proporciona alta velocidad de comunicación a partir de 100 Mbps, lo que permite realizar múltiples tareas simultáneamente al mismo tiempo. También admite protocolos flexibles para permitir a los dispositivos compartir información sin conflictos. Además, el estándar PROFINET ofrece una arquitectura escalable que permite añadir dispositivos fácilmente según sea necesario. Utiliza estructuras jerárquicas complejas, lo que facilita la gestión del sistema, y también posee capacidades autodescriptivas e interoperables que simplifican el diseño y la configuración de redes.</p>
                         </div>
-                        <div className='col cardServicios' style={{width:'max-content', height:'100%'}}>
-                            <img style={{maxWidth:'100%', opacity:'1'}} src={PROFINET} alt="Certificado PROFINET" />
+                        <div className='col cardServicios' style={{ width: 'max-content', height: '100%' }}>
+                            <img style={{ maxWidth: '100%', opacity: '1' }} src={PROFINET} alt="Certificado PROFINET" />
                         </div>
-
                     </div>
                 </section>
             </main>

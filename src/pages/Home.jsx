@@ -1,14 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import Loading from '../utils/Loading';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
-import LogosCLientes from '../json/LogosClientes.json'
-import LogoIdk from '../assets/images/logoIdk.png';
-import PLC from '../assets/images/plc-1200.png';
-import TableroGrande from '../assets/images/tableros-electricos-instalacion.png';
-import TableroChico from '../assets/images/tablero-chico.png';
 import "swiper/css";
 import "swiper/css/pagination";
+import PLC from '../assets/images/plc-1200.webp';
+import LogosCLientes from '../json/LogosClientes.json'
+import LogoIdk from '../assets/images/logoIdk.webp';
+import TableroGrande from '../assets/images/tableros-electricos-instalacion.webp';
+import TableroChico from '../assets/images/tablero-chico.webp';
 
 
 const Home = () => {
@@ -20,25 +22,24 @@ const Home = () => {
                         <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
                             <div style={{ maxHeight: '600px', opacity: '0.4' }} className="carousel-inner">
                                 <div className="carousel-item active" data-bs-interval={3000}>
-                                    <img src={PLC} className="d-block w-100" alt="PLC" />
+                                    <LazyLoadImage src={PLC} className="d-block w-100" alt="PLC" style={{ width: '100%', height:'100%' }} />
                                 </div>
                                 <div className="carousel-item" data-bs-interval={3000}>
-                                    <img src={TableroGrande} className="d-block w-100" alt="Medición tablero" />
+                                    <LazyLoadImage src={TableroGrande} className="d-block w-100" alt="Medición tablero" style={{ width: '100%', height:'100%' }} />
                                 </div>
                                 <div className="carousel-item" data-bs-interval={3000}>
-                                    <img src={TableroChico} className="d-block w-100" alt="Tablero térmicas" />
+                                    <LazyLoadImage src={TableroChico} className="d-block w-100" alt="Tablero térmicas" style={{ width: '100%', height:'100%' }} />
                                 </div>
                             </div>
                         </div>
                         <div style={{ maxHeight: '600px', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
-                            <img src={LogoIdk} className='img-fluid d-block mx-auto' alt='Logo Idelek' />
+                            <LazyLoadImage src={LogoIdk} className='img-fluid d-block mx-auto' alt='Logo Idelek' />
                         </div>
                     </article>
                 </section>
                 <section className='container-fluid p-0'>
                     <article className='position-relative'>
-                        <div className="parallax">
-                        </div>
+                        <div className="parallax"></div>
                         <div className='textoTitulo' >
                             <h2 className='tituloQs text-uppercase'>Quienes somos</h2>
                             <div className='textoHome' >
@@ -114,7 +115,7 @@ const Home = () => {
                                 slidesPerView={1}
                                 spaceBetween={10}
                                 autoplay={{
-                                    delay: 2500,
+                                    delay: 3500,
                                     disableOnInteraction: false,
                                 }}
                                 pagination={{
@@ -143,7 +144,7 @@ const Home = () => {
                             >
                                 {LogosCLientes.map((result, index) => (
                                     <SwiperSlide key={index}>
-                                        <img src={result.img} alt={result.title} />
+                                        <LazyLoadImage src={result.img} alt={result.title} placeholder={<Loading />} />
                                     </SwiperSlide>
                                 ))}
                             </Swiper>

@@ -64,6 +64,7 @@
     min-width: max-content;
     background-color: #f8f9fa;
     border-radius: 0px;
+    border: none;
     padding: 0px;
 }
 
@@ -77,16 +78,18 @@
     transition: 0.7s;
 }
 
+.nav-link:focus {
+    background-color: #6788a3;
+}
+
 .pag {
     margin-top: 11vh;
 }
 
-
 /* HOME */
 
-
 .parallax {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.854), rgba(0, 0, 0, 0.603)), url('../assets/images/plc.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.854), rgba(0, 0, 0, 0.603)), url('../assets/images/plc.webp   ');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -213,9 +216,7 @@
     object-fit: cover;
 }
 
-
 /* SERVICIOS */
-
 
 .tituloServicios {
     margin: 20px;
@@ -225,9 +226,7 @@
     font-size: 18px;
 }
 
-
 /* CARD SERVICIOS */
-
 
 .cardServicios {
     min-height: 450px;
@@ -316,9 +315,7 @@
     transform: scale(0.8);
 }
 
-
 /* CONTACTO */
-
 
 .form {
     display: flex;
@@ -378,7 +375,6 @@
     justify-content: center;
     margin-top: 12px;
 }
-
 
 @media only screen and (min-width:1401px) and (max-width:1600px) {
     .textoTitulo {

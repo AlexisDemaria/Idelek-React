@@ -8,7 +8,7 @@ const Footer = () => {
                 <section className="container text-center mt-5">
                     <div className="row">
                         <div className="col-sm mt-4 fw-bold">
-                            <h5 className="text-uppercase fw-bold mb-4">Nuestros servicios</h5>
+                            <p className="text-uppercase fw-bold mb-4" style={{fontSize:'20px'}}>Nuestros servicios</p>
                             <p><Link to='/ingenieria' className="text-reset">Ingeniería y proyectos</Link></p>
                             <p><Link to='/tableros' className="text-reset">Armado de tableros eléctricos</Link></p>
                             <p><Link to='/instalaciones' className="text-reset">Instalaciones</Link></p>
@@ -17,7 +17,7 @@ const Footer = () => {
                             <p><Link to='/capacitacion' className="text-reset">Capacitación</Link></p>
                         </div>
                         <div className="col-sm mt-4 fw-bold">
-                            <h5 className="text-uppercase fw-bold mb-4">Contacto</h5>
+                            <p className="text-uppercase fw-bold mb-4" style={{fontSize:'20px'}}>Contacto</p>
                             <p>Puedes hacer clic para acceder a la ubicación, enviar un mail o llamar por teléfono.</p>
                             <p><a className='text-muted' href='https://maps.app.goo.gl/qtHc1mjJZHagBLH39'><i style={{ padding: '6px' }} className="bi bi-geo-alt-fill" />Alonso de Reinoso 3449 - Córdoba capital, Córdoba, Argentina.</a></p>
                             <p><a className='text-muted' href='mailto:info@idelek.com.ar'><i style={{ padding: '6px' }} className="bi bi-envelope-at-fill" />info@idelek.com.ar</a></p>
@@ -31,7 +31,7 @@ const Footer = () => {
                             <p style={{ minWidth: '300px', margin: '0' }} >© 2024 Copyright - Todos los derechos reservados de IDELEK S.A.S</p>
                         </div>
                         <div className='col' style={{ height: '70px' }}>
-                            <a href="http://qr.afip.gob.ar/?qr=n0x3DUDFrPJY8FH550P6ag,," target="_F960AFIPInfo"><img style={{ maxHeight: '100%' }} src="http://www.afip.gob.ar/images/f960/DATAWEB.jpg" alt="Data Fiscal Idelek" border={0} /></a>
+                            <a href="http://qr.afip.gob.ar/?qr=n0x3DUDFrPJY8FH550P6ag,," target="_F960AFIPInfo"><img style={{ maxHeight: '100%' }} src="https://www.afip.gob.ar/images/f960/DATAWEB.jpg" alt="Data Fiscal Idelek" border={0} /></a>
                         </div>
                     </div>
                 </section>

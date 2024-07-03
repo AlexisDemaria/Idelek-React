@@ -25,7 +25,7 @@ const ScrollToTopButton = () => {
 
   return (
     <div>
-      <button className={`upper ${isVisible ? 'slide-in' : 'slide-out'}`} onClick={scrollToTop}>
+      <button className={`upper ${isVisible ? 'slide-in':'slide-out'}`} onClick={scrollToTop}>
         <i style={{ color: 'white', fontSize: '25px' }} className="bi bi-chevron-up"></i>
       </button>
     </div>

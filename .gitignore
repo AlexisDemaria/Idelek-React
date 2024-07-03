@@ -1,3 +1,4 @@
-/src/PHPMailer
+/build
 /node_modules
-*.php
+/src/web
+/src/pages/Contacto.jsx

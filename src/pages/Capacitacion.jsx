@@ -1,5 +1,5 @@
 import React from 'react';
-import FotoCapacitacion from '../assets/images/servicios/capacitacion.png'
+import FotoCapacitacion from '../assets/images/servicios/capacitacion.webp'
 
 const Capacitacion = () => {
     return (

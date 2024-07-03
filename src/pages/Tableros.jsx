@@ -1,5 +1,5 @@
 import React from 'react';
-import Plano from '../assets/images/servicios/plano.jpg';
+import Plano from '../assets/images/servicios/plano.webp';
 
 const Tableros = () => {
     return (

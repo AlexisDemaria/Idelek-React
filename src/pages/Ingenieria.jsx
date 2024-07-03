@@ -1,8 +1,8 @@
 import React from 'react';
-import Materiales from '../assets/images/servicios/materiales-electricos.png'
-import Pliegos from '../assets/images/servicios/pliegos.png'
-import Relevamiento from '../assets/images/servicios/relevamiento-obra.png'
-import PROFINET from '../assets/images/servicios/Certificado PROFINET.png'
+import Materiales from '../assets/images/servicios/materiales-electricos.webp'
+import Pliegos from '../assets/images/servicios/pliegos.webp'
+import Relevamiento from '../assets/images/servicios/relevamiento-obra.webp'
+import PROFINET from '../assets/images/servicios/Certificado PROFINET.webp'
 
 const Ingenieria = () => {
     return (

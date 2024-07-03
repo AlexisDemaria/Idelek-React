@@ -1,7 +1,7 @@
 import React from 'react';
-import Termografia1 from '../assets/images/servicios/camara-termografica.png'
-import Telurimentro from '../assets/images/servicios/telurimetro.png'
-import IntDif from '../assets/images/servicios/comprobador-int-dif.png'
+import Termografia1 from '../assets/images/servicios/camara-termografica.webp'
+import Telurimentro from '../assets/images/servicios/telurimetro.webp'
+import IntDif from '../assets/images/servicios/comprobador-int-dif.webp'
 
 const Termografia = () => {
     return (

@@ -7,7 +7,7 @@ const NavBar = () => {
         <>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container">
-                    <Link to='/'><img style={{ height: '9vh' }} src={LogoIdk} alt='Logo Idelek' /></Link>
+                    <Link to='/'><img style={{ height: '9vh', width:'max-content' }} src={LogoIdk} alt='Logo Idelek' /></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon" />
                     </button>
@@ -21,8 +21,8 @@ const NavBar = () => {
                                 <ul className="dropdown-menu nav-item">
                                     <li><Link className="nav-link" to='/ingenieria'>Ingeniería y proyectos</Link></li>
                                     <li><Link className="nav-link" to='/tableros'>Armado de tableros eléctricos</Link></li>
-                                    <li><Link className="nav-link" to='/instalaciones'>Instalaciones</Link></li>
                                     <li><Link className="nav-link" to='/mantenimiento'>Mantenimiento</Link></li>
+                                    <li><Link className="nav-link" to='/instalaciones'>Instalaciones</Link></li>
                                     <li><Link className="nav-link" to='/termografia'>Termografía y mediciones</Link></li>
                                     <li><Link className="nav-link" to='/capacitacion'>Capacitación</Link></li>
                                 </ul>

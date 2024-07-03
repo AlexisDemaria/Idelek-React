@@ -1,9 +1,9 @@
 import React from 'react';
-import Medicion from '../assets/images/servicios/medicion.png'
-import Mantenimiento1 from '../assets/images/servicios/mantenimiento1.png'
-import Cableado from '../assets/images/servicios/cableado.png'
-import Tijera from '../assets/images/servicios/tijera.jpg'
-import Hidro from '../assets/images/servicios/hidrohelevador.jpg'
+import Medicion from '../assets/images/servicios/medicion.webp'
+import Mantenimiento1 from '../assets/images/servicios/mantenimiento1.webp'
+import Cableado from '../assets/images/servicios/cableado.webp'
+import Tijera from '../assets/images/servicios/tijera.webp'
+import Hidro from '../assets/images/servicios/hidrohelevador.webp'
 
 const Mantenimiento = () => {
     return (

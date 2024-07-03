@@ -88,13 +88,15 @@
 
 /* HOME */
 
+
 .parallax {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.854), rgba(0, 0, 0, 0.603)), url('../assets/images/plc.webp   ');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.850), rgba(0, 0, 0, 0.600)), url('../assets/images/plc.webp');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
+    width: 100%;
     opacity: 0.6;
 }
 
@@ -321,6 +323,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .fondoForm {
@@ -344,10 +347,6 @@
     background-color: white;
     padding: 20px;
     border-radius: 5px;
-}
-
-.links {
-    margin-top: 10px;
 }
 
 .form-button {

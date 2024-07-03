@@ -1,7 +1,7 @@
 import React from 'react';
-import Instalaciones1 from '../assets/images/servicios/montaje-bandejas.png'
-import Instalaciones3 from '../assets/images/servicios/instalaciones.jpg'
-import Tijera from '../assets/images/servicios/tijera.jpg'
+import Instalaciones1 from '../assets/images/servicios/montaje-bandejas.webp'
+import Instalaciones3 from '../assets/images/servicios/instalaciones.webp'
+import Tijera from '../assets/images/servicios/tijera.webp'
 
 const Instalaciones = () => {
     return (

@@ -88,16 +88,25 @@
 
 /* HOME */
 
+.carousel-inner {
+    height: 550px;
+    opacity: 0.5;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
 .parallax {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.850), rgba(0, 0, 0, 0.600)), url('../assets/images/plc.webp');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
     height: 550px;
-    width: 100%;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 .tituloHome {
@@ -199,22 +208,24 @@
 .swiper {
     z-index: 1;
     max-width: 100%;
-    min-height: 150px;
+    min-height: 200px;
+}
+
+.swiper-wrapper {
+    align-items: center;
 }
 
 .swiper-slide {
-    background: #fff;
-    width: 300px;
-    height: 100px;
     display: flex !important;
     justify-content: center;
     align-items: center;
+    width: 350px;
 }
 
 .swiper-slide img {
     display: flex;
-    max-width: 320px;
-    max-height: 100px;
+    max-width: 300px;
+    max-height: 140px;
     object-fit: cover;
 }
 
@@ -323,7 +334,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .fondoForm {

@@ -30,14 +30,9 @@
         "title": "Delta"
     },
     {
-        "id": 7,
-        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FF2J.png?alt=media&token=e6417550-4294-4eb5-bf33-30a006921c26",
-        "title": "F2J Lighting"
-    },
-    {
         "id": 8,
         "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FFAME.png?alt=media&token=4b01f514-a289-4842-8667-e93cf9a2baa6",
-        "title": "FAMESA"
+        "title": "FAM"
     },
     {
         "id": 9,
@@ -45,9 +40,9 @@
         "title": "Farmacity"
     },
     {
-        "id": 10,
-        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FFRC.png?alt=media&token=9ab3b9fb-86cd-4831-985c-a4496e6b54d9",
-        "title": "UTN FRC"
+        "id": 7,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FF2J.png?alt=media&token=e6417550-4294-4eb5-bf33-30a006921c26",
+        "title": "F2J Lighting"
     },
     {
         "id": 11,
@@ -65,9 +60,14 @@
         "title": "Horizonte"
     },
     {
+        "id": 12,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FITR.jpeg?alt=media&token=a2e3515a-4817-41d4-a8e8-da6c056117b8",
+        "title": "Instituto Técnico Renault"
+    },
+    {
         "id": 15,
         "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FIVECO.png?alt=media&token=178e825f-86e8-4cf5-9003-0c540aee0764",
-        "title": "IVECO"
+        "title": "Iveco"
     },
     {
         "id": 16,
@@ -107,7 +107,7 @@
     {
         "id": 23,
         "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FRDC.png?alt=media&token=c59e221f-3c94-4878-ba37-00dbaaaf6205",
-        "title": "RDC"
+        "title": "Refineria del Centro"
     },
     {
         "id": 24,
@@ -130,28 +130,33 @@
         "title": "Taranto"
     },
     {
-        "id": 28,
-        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FUBP.png?alt=media&token=73e946e5-7094-4853-94fa-e0a17bb17cc1",
-        "title": "UBP"
-    },
-    {
-        "id": 13,
+        "id": 32,
         "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FTGN.png?alt=media&token=149c1a52-0a3a-41e4-8a91-3a996d4b5103",
         "title": "Transportadora de Gas del Norte"
     },
     {
-        "id": 29,
-        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FUEB.png?alt=media&token=fd474fba-74c1-4adb-a50e-d5e11c494fc9",
-        "title": "UEB"
+        "id": 28,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FUBP.png?alt=media&token=73e946e5-7094-4853-94fa-e0a17bb17cc1",
+        "title": "Universidad Blas Pascal"
+    },
+    {
+        "id": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FFRC.png?alt=media&token=9ab3b9fb-86cd-4831-985c-a4496e6b54d9",
+        "title": "Universidad Tecnologica Nacional"
     },
     {
         "id": 30,
         "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FUNC.png?alt=media&token=2cb364fd-d5ff-42af-9c59-195e1ec6d500",
-        "title": "UNC"
+        "title": "Universidad Nacional de Córdoba"
+    },
+    {
+        "id": 29,
+        "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FUEB.png?alt=media&token=fd474fba-74c1-4adb-a50e-d5e11c494fc9",
+        "title": "Soderia UEB"
     },
     {
         "id": 31,
         "img": "https://firebasestorage.googleapis.com/v0/b/idelek-react.appspot.com/o/clientes%2FVELEZ.png?alt=media&token=61e395d6-d397-4c5a-9165-1207b9e50aad",
-        "title": "VELEZ"
+        "title": "Cafe Velez"
     }
 ]

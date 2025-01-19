@@ -44,7 +44,7 @@ const Tableros = () => {
                         </div>
                     </div>
                     <div>
-                        <h3 className='tituloServicios'>Tableros para corrección del Coseno de Phi</h3>
+                        <h3 className='tituloServicios'>Tableros para corrección de Factor de Potencia</h3>
                         <div style={{ marginLeft: '3vh' }}>
                             <p style={{ fontSize: '18px' }}><i className="bi bi-check2-circle" style={{ color: '#6788a3', padding: '6px', fontSize: '24px' }}></i>Banco de capacitores en baja tensión de 20 – 600 KVAr</p>
                         </div>

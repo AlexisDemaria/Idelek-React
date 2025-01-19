@@ -1,7 +1,7 @@
 import React from 'react';
-import Instalaciones1 from '../assets/images/servicios/montaje-bandejas.webp'
-import Instalaciones3 from '../assets/images/servicios/instalaciones.webp'
-import Tijera from '../assets/images/servicios/tijera.webp'
+import Instalaciones1 from '../assets/images/servicios/bandejas2.jpg'
+import Instalaciones2 from '../assets/images/servicios/bandejas1.jpg'  
+import Instalaciones3 from '../assets/images/servicios/bandejas3.jpg'
 
 const Instalaciones = () => {
     return (
@@ -34,7 +34,7 @@ const Instalaciones = () => {
                         <img src={Instalaciones1} alt="Bandejas portacables" style={{ opacity: '1' }} />
                     </div>
                     <div className="cardServicios col">
-                        <img src={Tijera} alt="Maquinaria" style={{ opacity: '1' }} />
+                        <img src={Instalaciones2} alt="Maquinaria" style={{ opacity: '1' }} />
                     </div>
                     <div className="cardServicios col">
                         <img src={Instalaciones3} alt="Maquina neumática" style={{ opacity: '1' }} />

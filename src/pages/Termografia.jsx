@@ -6,7 +6,7 @@ import IntDif from '../assets/images/servicios/comprobador-int-dif.webp'
 const Termografia = () => {
     return (
         <>
-            <main className='container pag'>
+            <main className='container'>
                 <section>
                     <div>
                         <h2 className='text-center tituloServicios'>

@@ -4,7 +4,7 @@ import Plano from '../assets/images/servicios/plano.webp';
 const Tableros = () => {
     return (
         <>
-            <main className='container pag'>
+            <main className='container'>
                 <div>
                     <h2 className='text-center tituloServicios'>Diseño y construcción de tableros eléctricos</h2>
                 </div>

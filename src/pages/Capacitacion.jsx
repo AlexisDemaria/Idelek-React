@@ -4,7 +4,7 @@ import FotoCapacitacion from '../assets/images/servicios/capacitacion.webp'
 const Capacitacion = () => {
     return (
         <>
-            <main className='container pag'>
+            <main className='container'>
                 <section>
                     <article>
                         <div>

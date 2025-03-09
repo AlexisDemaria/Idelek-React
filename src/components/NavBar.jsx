@@ -7,7 +7,7 @@ const NavBar = () => {
         <>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container">
-                    <Link to='/'><img style={{ height: '9vh', width:'max-content' }} src={LogoIdk} alt='Logo Idelek' /></Link>
+                    <Link to='/'><img style={{ height: '8vh', width: 'max-content' }} src={LogoIdk} alt='Logo Idelek' /></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon" />
                     </button>
@@ -17,7 +17,7 @@ const NavBar = () => {
                                 <Link className="nav-link" to='/'>Inicio</Link>
                             </li>
                             <li className="nav-item dropdown">
-                                <p style={{ margin: '0px' }} className="nav-link dropdown-toggle" role="button" data-bs-toggle="" aria-expanded="false">Servicios</p>
+                                <p style={{ margin: '0px' }} className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</p>
                                 <ul className="dropdown-menu nav-item">
                                     <li><Link className="nav-link" to='/ingenieria'>Ingeniería y proyectos</Link></li>
                                     <li><Link className="nav-link" to='/tableros'>Armado de tableros eléctricos</Link></li>
@@ -37,6 +37,7 @@ const NavBar = () => {
                     </div>
                 </div>
             </nav>
+            <div id='progress'></div>
         </>
     );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import Medicion from '../assets/images/servicios/medicion.webp'
-import Mantenimiento1 from '../assets/images/servicios/mantenimiento1.webp'
+import FotoMantenimiento from '../assets/images/servicios/mantenimiento1.webp'
 import Cableado from '../assets/images/servicios/cableado.webp'
 import Tijera from '../assets/images/servicios/tijera.webp'
 import Hidro from '../assets/images/servicios/hidrohelevador.webp'
@@ -8,7 +8,7 @@ import Hidro from '../assets/images/servicios/hidrohelevador.webp'
 const Mantenimiento = () => {
     return (
         <>
-            <main className='container pag'>
+            <main className='container'>
                 <section>
                     <article>
                         <div>
@@ -22,7 +22,7 @@ const Mantenimiento = () => {
                     <article className='row' style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
                         <div className="cardServicios col">
                             <div className="card-content">
-                                <img src={Mantenimiento1} alt="Elemento quemado" />
+                                <img src={FotoMantenimiento} alt="Elemento quemado" />
                                 <h4>Predictivo</h4>
                                 <p>La duración de algunos equipos y sistemas eléctricos y electrónicos es predecible y su obsolescencia permite determinar un plan de reposición, debido al normal desgaste o deterioro de sus componentes</p>
                             </div>
@@ -62,7 +62,7 @@ const Mantenimiento = () => {
                                         <p style={{ fontSize: '18px', minWidth: '250px' }}>Somos auténticos expertos en aportar soluciones eficientes, funcionales y decorativas, adaptando la iluminación al medio que corresponda. Cumpliendo los estándares legales en iluminación cubrimos todo tipo de demanda en la industria, en comercio, en instituciones y monumentos, etcetera.</p>
                                     </div>
                                     <div className='cardServicios col' >
-                                        <img src={Tijera} alt="" style={{ height: 'max-content', width: '100%', minWidth: '300px', opacity: '1' }} />
+                                        <img src={Tijera} alt="" style={{ objectFit: 'cover', height: 'max-content', width: '100%', minWidth: '300px', opacity: '1' }} />
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@ const Mantenimiento = () => {
                                         <p style={{ fontSize: '18px', minWidth: '250px' }}>Tenemos todo tipo de soluciones para un alumbrado eficiente. Estudiamos, asesoramos, instalamos y mantenemos cualquier tipo de iluminación exterior; viales, periféricas, etcetera. Aportamos soluciones para hacer los sistemas más sostenibles, más rentables y mejor iluminadas.</p>
                                     </div>
                                     <div className="cardServicios col">
-                                        <img src={Hidro} alt="" style={{ height: 'max-content', width: '100%', minWidth: '300px', opacity: '1' }} />
+                                        <img src={Hidro} alt="" style={{ objectFit: 'cover', height: 'max-content', width: '100%', minWidth: '300px', opacity: '1' }} />
                                     </div>
                                 </div>
                             </div>

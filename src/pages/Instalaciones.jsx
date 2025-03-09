@@ -6,7 +6,7 @@ import Instalaciones3 from '../assets/images/servicios/bandejas3.jpg'
 const Instalaciones = () => {
     return (
         <>
-            <main className='container pag'>
+            <main className='container'>
                 <section>
                     <div>
                         <h2 className='text-center tituloServicios' >Obras, montajes e instalaciones eléctricas</h2>

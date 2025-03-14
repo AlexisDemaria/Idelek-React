@@ -11,7 +11,7 @@ import LogoIdk from '../assets/images/logoIdk.webp';
 import TableroGrande from '../assets/images/tableros-electricos-instalacion.webp';
 import TableroChico from '../assets/images/tablero-chico.webp';
 import Ingenieria from '../assets/images/proyectos_electricos.jpg'
-import Tablero from '../assets/images/tablero-bph.jpg'
+import Tablero from '../assets/images/tableros/Tablero BPH.jpg'
 import Mantenimiento from '../assets/images/electri-1611612488.webp'
 import Instalaciones from '../assets/images/instalaciones.webp'
 import Termografia from '../assets/images/termografia.webp'
@@ -41,12 +41,12 @@ const Home = () => {
                             <hr className='linea'></hr>
                             <p className='text-center' style={{ fontSize: '18px', fontWeight: 'bold', color: '#212529' }}>Podemos ayudarle en todos los problemas electrónicos y eléctricos de baja tensión que tenga su empresa, mire los servicios que somos capaces de ofrecer!</p>
                             <div className='align-items-center d-flex justify-content-center'>
-                                <a className='botonQuienesSomos' href='#servicios'>Conocer más!</a>
+                                <a className='botonHome' href='#servicios'>Conocer más!</a>
                             </div>
                         </div>
                     </div>
                 </section>
-                
+
                 <section className='' style={{ backgroundColor: '#2e3c49', minHeight: '500px' }}>
                     <div className='container'>
                         <div className='' style={{ paddingTop: '30px' }}>
@@ -59,7 +59,7 @@ const Home = () => {
                             <p>Cada cliente es único, como lo es el proyecto que requiere, por lo tanto, es nuestro principal objetivo satisfacer todas las necesidades de nuestros clientes <strong>en calidad, precio y tiempos adecuados</strong>.</p>
                         </div>
                         <div className='align-items-center d-flex justify-content-center'>
-                            <Link className='botonQuienesSomos' to='/contacto'>Contáctanos</Link>
+                            <Link className='botonHome' to='/contacto'>Contáctanos</Link>
                         </div>
                     </div>
                 </section>
@@ -132,12 +132,14 @@ const Home = () => {
                     </Link>
                 </section>
 
-                <section style={{ backgroundColor: '#616161', minHeight: '300px' }}>
-                    <div className='align-items-center d-flex justify-content-center'>
-                        <p className='text-center' style={{ fontSize: '30px', paddingTop: '40px', color: '#fff' }}>Contactenos via WhatsApp!</p>
-                    </div>
-                    <div className='align-items-center d-flex justify-content-center'>
-                        <p className='botonWhatsApp'><a className='botonWhatsApp' href="https://api.whatsapp.com/send?phone=5493515165848" target="_blank" rel="noreferrer"><i style={{ padding: '6px', fontSize: '22px' }} className="bi bi-whatsapp"></i>Ir a WhatsApp</a></p>
+                <section className='align-items-center d-flex justify-content-center' style={{ backgroundColor: '#616161', minHeight: '300px' }}>
+                    <div>
+                        <div>
+                            <p className='text-center' style={{ fontSize: '30px', color: '#fff' }}>Contactenos via WhatsApp!</p>
+                        </div>
+                        <div className='align-items-center d-flex justify-content-center'>
+                            <a className='botonWhatsApp' href="https://api.whatsapp.com/send?phone=5493515165848" target="_blank" rel="noreferrer"><i style={{ padding: '6px', fontSize: '22px' }} className="bi bi-whatsapp"></i>Ir a WhatsApp</a>
+                        </div>
                     </div>
                 </section>
 

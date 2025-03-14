@@ -2,12 +2,13 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'; 
 import '../src/css/App.css';
 import NavBar from './components/NavBar';
+import Home from './pages/Home';
 import Footer from './components/Footer';
 import ScrollToTopButton from './utils/ScrollToTopButton'
 import ScrollToTop from './utils/ScrollToTop';
 import Loading from './utils/Loading';
+import BotonWSP from './utils/BotonWSP';
 
-const Home = React.lazy(() => import('./pages/Home'))
 const Ingenieria = React.lazy(() => import('./pages/Ingenieria'))
 const Tableros = React.lazy(() => import('./pages/Tableros'))
 const Instalaciones = React.lazy(() => import('./pages/Instalaciones'))
@@ -38,6 +39,7 @@ const App = () => {
                         <Route path='*' element={<Error404/>} />
                     </Routes>
                     <Footer />
+                    <BotonWSP />
                     <ScrollToTopButton />
                 </BrowserRouter>
             </React.Suspense>
